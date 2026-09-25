@@ -3179,30 +3179,6 @@
 		)
 	)
 	(rectangle
-		(start 208.28 109.22)
-		(end 265.43 134.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "1cbb2c6f-1c0e-40c9-8c7b-a218fb6eb177")
-	)
-	(rectangle
-		(start 208.28 143.51)
-		(end 265.43 168.91)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "37163504-a0c1-40d7-b140-bba4298ca4e7")
-	)
-	(rectangle
 		(start 208.28 179.07)
 		(end 265.43 204.47)
 		(stroke
@@ -3225,18 +3201,6 @@
 			(type none)
 		)
 		(uuid "a3884d37-3def-4f01-b660-c72d8be8694d")
-	)
-	(rectangle
-		(start 208.28 77.47)
-		(end 265.43 102.87)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "b4ed60e5-a4a7-4290-ac99-7e5671365aa2")
 	)
 	(text "    o 1 uF de entrada vem do C4 (10 uF 100 V, ~6 uF a 24 V) no"
 		(exclude_from_sim no)
@@ -4789,16 +4753,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 33.02) (xy 49.53 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eaff41d-01d3-4803-a80d-7f1f78a4e89a")
-	)
-	(wire
-		(pts
 			(xy 233.68 69.85) (xy 236.22 69.85)
 		)
 		(stroke
@@ -4866,16 +4820,6 @@
 			(type default)
 		)
 		(uuid "6b7dd510-f89e-45db-9c8b-80afa06e08c7")
-	)
-	(wire
-		(pts
-			(xy 49.53 33.02) (xy 55.88 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cca538f-deea-42de-b8b9-3ba9f928d205")
 	)
 	(wire
 		(pts
@@ -13846,7 +13790,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 49.53 31.75 0)
+		(at 55.88 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13856,7 +13800,7 @@
 		(dnp no)
 		(uuid "deff8e99-6e66-4270-ae17-d2ca80dedd76")
 		(property "Reference" "#PWR086"
-			(at 49.53 38.1 0)
+			(at 55.88 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13867,7 +13811,7 @@
 			)
 		)
 		(property "Value" "+12V_TPS"
-			(at 50.8 26.67 0)
+			(at 57.15 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13878,7 +13822,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 31.75 0)
+			(at 55.88 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13889,7 +13833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 31.75 0)
+			(at 55.88 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13900,7 +13844,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 31.75 0)
+			(at 55.88 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

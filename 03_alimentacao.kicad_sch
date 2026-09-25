@@ -1121,155 +1121,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EBM7_V23_proyecto2:MCP1824ST-3302E"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MCP1824ST-3302E"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOT-223-3"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Microchip MCP1824ST-3302E/DB, LDO 3.3V/300mA, SOT-223-3 (tab=GND). Pinout verificada: datasheet Microchip (Documentos_de_Referencia)"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MCP1824ST-3302E_1_1"
-				(rectangle
-					(start -7.62 2.54)
-					(end 7.62 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "TAB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EBM7_V23_proyecto:K78U05-500R3"
 			(pin_names
 				(offset 1.016)
@@ -2659,7 +2510,7 @@
 	)
 	(text "13. kicad-happy 2026-09-09: pre-carga R41//R42 220R 1206 = 110R,\n[Adenda 2026-09-15] U3 e hoje Recom R-78HB5.0-0.5L (2 % / 10 mA de carga minima\nrecomendada). A pre-carga R41||R42 decide-se na bancada. R41 = R42 = 220 R\n(ERJ-8ENF2200V, 1206, 0,25 W), logo os degraus reais sao 0 / 22,7 / 45,5 mA (uma\nou as duas montadas; 110 R em paralelo). Leva f_sw de ~100 para ~200 kHz [FD p.2],\npara dentro da banda da CISPR 32. Custo a 45,5 mA: 0,227 W nas resistencias (0,114 W\nem cada uma, 46 % do nominal) e ~0,37 W tirados ao +12 V. Sem pre-carga nenhum limite\ndo datasheet e violado."
 		(exclude_from_sim no)
-		(at 149.86 144.78 0)
+		(at 150.114 178.816 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2867,12 +2718,6 @@
 		(uuid "eb0678b0-5728-423a-9096-ebb157eaf33c")
 	)
 	(junction
-		(at 114.3 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01e0f857-ce00-4555-8fcf-8d336f91eab6")
-	)
-	(junction
 		(at 161.29 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2883,18 +2728,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a65b2e9-a4fb-40c3-a1e2-110892864e41")
-	)
-	(junction
-		(at 90.17 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b2974d0-59c7-40e5-aac1-c847854ae7d2")
-	)
-	(junction
-		(at 125.73 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c3a0c90-210f-4b28-9ede-be0aafc5e223")
 	)
 	(junction
 		(at 82.55 63.5)
@@ -2921,12 +2754,6 @@
 		(uuid "4d79eba0-7502-4212-8b46-3e4d13ccd6c0")
 	)
 	(junction
-		(at 101.6 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69bc3fed-99c5-44a3-8331-3c898242780c")
-	)
-	(junction
 		(at 172.72 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2937,12 +2764,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74694037-c1f7-4961-9e08-acba8ff9f42b")
-	)
-	(junction
-		(at 124.46 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7635a78d-ebd5-42a7-bc16-36e90af057e4")
 	)
 	(junction
 		(at 151.13 63.5)
@@ -3036,16 +2857,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 144.78) (xy 100.33 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f69033c-d880-4025-bbfc-f6956b17b4db")
-	)
-	(wire
-		(pts
 			(xy 55.88 63.5) (xy 55.88 67.31)
 		)
 		(stroke
@@ -3066,16 +2877,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 139.7) (xy 90.17 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30ea148b-99c0-499b-87e2-4a63902ce707")
-	)
-	(wire
-		(pts
 			(xy 121.92 86.36) (xy 133.35 86.36)
 		)
 		(stroke
@@ -3086,16 +2887,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 146.05) (xy 101.6 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34641905-b50a-422f-a54a-30eb7e55e4a7")
-	)
-	(wire
-		(pts
 			(xy 55.88 63.5) (xy 64.77 63.5)
 		)
 		(stroke
@@ -3103,16 +2894,6 @@
 			(type default)
 		)
 		(uuid "36dcfc71-9ec6-4ef2-a564-a34ebca83ed0")
-	)
-	(wire
-		(pts
-			(xy 114.3 139.7) (xy 124.46 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ce311e2-2d61-42d0-ae58-3e695c6ebee1")
 	)
 	(wire
 		(pts
@@ -3226,16 +3007,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 139.7) (xy 125.73 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "677e85a4-269d-4856-a048-998e1531cdf2")
-	)
-	(wire
-		(pts
 			(xy 181.61 63.5) (xy 181.61 68.58)
 		)
 		(stroke
@@ -3286,26 +3057,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 146.05) (xy 102.87 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "893fefdb-8043-4fb7-ac4b-653a5a601859")
-	)
-	(wire
-		(pts
-			(xy 101.6 146.05) (xy 102.87 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a3c1af9-bc23-4e94-8517-c1f15ad18dfd")
-	)
-	(wire
-		(pts
 			(xy 120.65 66.04) (xy 121.92 66.04)
 		)
 		(stroke
@@ -3313,26 +3064,6 @@
 			(type default)
 		)
 		(uuid "8e079223-0022-4721-b7c7-51a44f04ea0a")
-	)
-	(wire
-		(pts
-			(xy 85.09 139.7) (xy 90.17 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a39b1dd-895b-4da1-a765-ff3887602aae")
-	)
-	(wire
-		(pts
-			(xy 114.3 139.7) (xy 114.3 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2b7e0d7-5931-413d-ad93-470715bbf0b6")
 	)
 	(wire
 		(pts
@@ -3356,16 +3087,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 139.7) (xy 124.46 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af691790-428d-42bd-a14b-5486c55e50f6")
-	)
-	(wire
-		(pts
 			(xy 113.03 63.5) (xy 113.03 66.04)
 		)
 		(stroke
@@ -3383,16 +3104,6 @@
 			(type default)
 		)
 		(uuid "b0c9e943-9b4b-42e7-8844-752d72046b7f")
-	)
-	(wire
-		(pts
-			(xy 125.73 139.7) (xy 130.81 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5b86fe7-2429-4ddb-b39e-53421d0494a3")
 	)
 	(wire
 		(pts
@@ -3443,26 +3154,6 @@
 			(type default)
 		)
 		(uuid "bdd2abe2-dc0a-4fc7-8622-31f469058b71")
-	)
-	(wire
-		(pts
-			(xy 90.17 139.7) (xy 91.44 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4020cae-f5cd-40ca-a751-6540f9a2fb33")
-	)
-	(wire
-		(pts
-			(xy 111.76 139.7) (xy 114.3 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca591916-5b7d-472f-ac65-6f089f86dd93")
 	)
 	(wire
 		(pts
@@ -3545,7 +3236,7 @@
 		(uuid "d8ada4af-e5ed-460e-917d-24cae1055ebe")
 	)
 	(label "+5V_REG"
-		(at 54.61 63.5 0)
+		(at 55.88 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3739,158 +3430,6 @@
 			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0f510395-e256-48c5-bcfd-2055d05ee85f")
-		(property "Reference" "#PWR030"
-			(at 101.6 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DGND"
-			(at 101.6 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8994fe7-13a7-49b1-a9b3-65b604c3b551")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1b222051-fb44-4833-9561-8097ffb1b0fa")
-		(property "Reference" "#PWR035"
-			(at 124.46 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DGND"
-			(at 124.46 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6468ffac-697d-418a-8fbb-09c717cd35ca")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4636,82 +4175,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 125.73 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "439748dc-9564-4642-b699-91fadc464747")
-		(property "Reference" "T5"
-			(at 125.73 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP_+3.3V_DIG"
-			(at 124.46 137.795 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EBM7_V23:TestPad_Via"
-			(at 125.73 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad13f364-f285-4a47-ae1e-32e8718cf9ba")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "T5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 130.81 91.44 0)
 		(unit 1)
@@ -4782,82 +4245,6 @@
 			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 85.09 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5691bffb-c274-460c-8825-1d728fcdf422")
-		(property "Reference" "#PWR027"
-			(at 85.09 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DGND"
-			(at 85.09 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf75a8dc-5f99-4a92-aaff-23d7b5c40192")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6467,186 +5854,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 90.17 147.32 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "957b7963-b86f-4881-8e64-acc51add0509")
-		(property "Reference" "C6"
-			(at 95.885 145.415 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 95.885 147.955 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EBM7_V23:0603C"
-			(at 90.17 147.32 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603YD106KAT2A"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "23adf0e8-af9a-4ab1-ada5-3baed97f7901")
-		)
-		(pin "1"
-			(uuid "ce9ca303-4680-4b37-b2e3-53c9202b70bb")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 124.46 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "986e4897-1fb9-4eec-8d5d-8cb648533e7b")
-		(property "Reference" "C9"
-			(at 127 145.415 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 127 147.955 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EBM7_V23:0603C"
-			(at 124.46 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM188R72A104KA35D"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c4f266e5-eb5b-446d-96fc-4100e59b0e83")
-		)
-		(pin "1"
-			(uuid "f8c4eede-5d96-492f-8ae6-a41570b3df98")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 71.12 92.71 0)
 		(unit 1)
@@ -6964,82 +6171,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a7920cec-ebe6-452d-a8d0-a54bb00d9dac")
-		(property "Reference" "#PWR029"
-			(at 90.17 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DGND"
-			(at 90.17 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "00fb6a63-187d-4d3a-a156-279b0aa5e59d")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 88.9 63.5 0)
 		(unit 1)
@@ -7110,95 +6241,6 @@
 			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "T4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 114.3 147.32 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0958978-347e-4865-bfb1-11af3cfbcf8f")
-		(property "Reference" "C8"
-			(at 118.745 145.415 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 118.745 147.955 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EBM7_V23:0603C"
-			(at 114.3 147.32 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603YD106KAT2A"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2530c8d2-bbb0-4f10-9118-7f50c4b781b5")
-		)
-		(pin "2"
-			(uuid "baf19029-13ce-476e-8351-6461f8c19402")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7303,7 +6345,7 @@
 			)
 		)
 		(property "Value" "+5V_REG"
-			(at 60.96 57.15 0)
+			(at 70.612 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7352,82 +6394,6 @@
 			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 130.81 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb2930af-6ce3-452f-8c45-7bb60553a13d")
-		(property "Reference" "#PWR038"
-			(at 130.81 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 130.81 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ceb21e2c-a02b-46e3-8a9c-ac5e39a9df81")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7831,101 +6797,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EBM7_V23_proyecto2:MCP1824ST-3302E")
-		(at 101.6 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "daea2131-e529-4861-a5d7-0cb5cdcbdd98")
-		(property "Reference" "U2"
-			(at 101.6 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP1824ST-3302E/DB"
-			(at 101.6 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EBM7_V23:SOT-223-3"
-			(at 101.6 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MCP1824ST-3302E/DB"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d88c417-c383-4a7b-aa01-b1f95c539af3")
-		)
-		(pin "3"
-			(uuid "785df827-21cc-4b49-9e71-723dbf2f9c5c")
-		)
-		(pin "4"
-			(uuid "ac7f163e-4e92-4a2c-b642-c0a8e29ea38d")
-		)
-		(pin "2"
-			(uuid "78035857-e41c-40bc-9b1b-ae35b1a16148")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 107.95 74.93 0)
 		(unit 1)
@@ -7996,82 +6867,6 @@
 			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 85.09 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dff06f5e-1bc7-45e2-9486-862a07db5804")
-		(property "Reference" "#PWR026"
-			(at 85.09 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 85.09 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "618bf366-2f57-4847-bfcf-5e0465f60f99")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8161,158 +6956,6 @@
 			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eab9e43d-3747-4bc1-a83b-b415a723340c")
-		(property "Reference" "#PWR032"
-			(at 114.3 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DGND"
-			(at 114.3 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "765c025c-50b0-482e-9441-7467fe116b12")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 85.09 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f1d2386e-8986-4343-9e58-0d787658c1fb")
-		(property "Reference" "T3"
-			(at 85.09 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP_DGND"
-			(at 86.36 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EBM7_V23:TestPad_Via"
-			(at 85.09 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f60a51d4-3632-4032-880c-27233a5dc718")
-		)
-		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
-				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
-					(reference "T3")
 					(unit 1)
 				)
 			)
