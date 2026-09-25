@@ -1,0 +1,195 @@
+(footprint "K78Uxx-500R3L_SIP-3H"
+	(version 20241229)
+	(generator "f3_32_placement")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MORNSUN K78Uxx-500R3L (horizontal): corpo deitado 17,5 x 11,5 x 9,0 mm, 3 pinos a 2,54 (dia 0,50, furo 1,00) numa coluna no extremo, pino 1 em cima - datasheet 2025.02.17-A/3 p.4. Pinos: 1 Vin, 2 GND, 3 Vo. Escolhido pela altura (9 mm) em vez do vertical de 17,5 mm. 2026-09-04.")
+	(tags "MORNSUN K78U SIP-3 horizontal")
+	(attr through_hole)
+	(property "Reference" "REF**"
+		(at 9 -7 0)
+		(layer "F.SilkS")
+		(uuid "60e58c56-3566-401a-9b5c-19ff61bf0bac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "K78Uxx-500R3L_SIP-3H"
+		(at 9 7 0)
+		(layer "F.Fab")
+		(uuid "ff7b6c75-78a2-4169-a157-bbffbc40d811")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0.55 -5.75)
+		(end 18.05 -5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38e11e48-6c1b-49d8-ba01-5bcc50a580cb")
+	)
+	(fp_line
+		(start 18.05 -5.75)
+		(end 18.05 5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c123cf0-e63e-429e-9932-906f6c753cb8")
+	)
+	(fp_line
+		(start 18.05 5.75)
+		(end 0.55 5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "247772eb-5566-4daa-ade7-3568b6d5ffce")
+	)
+	(fp_line
+		(start 0.55 5.75)
+		(end 0.55 -5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb76e048-aabc-4103-b2de-c494811f1699")
+	)
+	(fp_line
+		(start 0.43 -5.87)
+		(end 18.17 -5.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28da1c05-3067-486d-9620-39598334810a")
+	)
+	(fp_line
+		(start 18.17 -5.87)
+		(end 18.17 5.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "023f175a-e654-4785-af5d-5d42db81e44d")
+	)
+	(fp_line
+		(start 18.17 5.87)
+		(end 0.43 5.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1d5164f-4915-4a1f-8c3d-cbe9b28b5374")
+	)
+	(fp_line
+		(start 0.43 5.87)
+		(end 0.43 3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7626cc9-dd26-43f4-8b40-a52f4a29f7a4")
+	)
+	(fp_line
+		(start 0.43 -3.8)
+		(end 0.43 -5.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fcd4a094-359a-4ec8-9d1b-9be720ae42df")
+	)
+	(fp_line
+		(start -1.3 -6)
+		(end 18.3 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9c4936c-0f24-4d37-bf0f-aaf2e3e76522")
+	)
+	(fp_line
+		(start 18.3 -6)
+		(end 18.3 6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4cec2000-fb31-4389-bbfb-561310468447")
+	)
+	(fp_line
+		(start 18.3 6)
+		(end -1.3 6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35744f7b-6449-4ce8-a5ff-b61a08a513a5")
+	)
+	(fp_line
+		(start -1.3 6)
+		(end -1.3 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7107233b-fae0-4d27-8a10-6448aba39aff")
+	)
+	(fp_line
+		(start 0.43 -3.8)
+		(end -0.65 -3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5c16b8a-d372-4061-a4b3-64cd84c43156")
+	)
+	(pad "1" thru_hole rect
+		(at 0 -2.54)
+		(size 1.6 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b8b423c8-1332-460f-bb50-77a3fbdadff0")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 1.6 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a74087f-546c-4d2a-9881-432ad622684d")
+	)
+	(pad "3" thru_hole oval
+		(at 0 2.54)
+		(size 1.6 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "90d942e7-b26b-42e2-a106-2cb9eebc351b")
+	)
+)

@@ -1,0 +1,36 @@
+(kicad_symbol_lib
+	(version 20250316)
+	(generator "kicad-mcp-symbol-gen")
+	(symbol "NFM18PC104"
+		(pin_names (offset 1.016) (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "NFM18PC104"
+			(at 0 -2.54 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "NFM0603"
+			(at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 0 -7.62 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Murata NFM18PC104R1C3D, condensador pasante 100nF 2A. Numeracion Murata (folha de dados p.2): 1 = Input, 2 = GND (electrodos laterais), 3 = Output. Corrigido na revisao 2026-09-03: o simbolo anterior tinha o GND no pino 3 e teria curto-circuitado AVDD/IOVDD com um footprint fiel a Murata. Datasheet en Documentos_de_Referencia"
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(symbol "NFM18PC104_1_1"
+			(rectangle (start -5.0800 2.5400) (end 5.0800 -2.5400) (stroke (width 0)(type default)) (fill (type background)))
+			(pin passive line (at -7.6200 0.0000 0) (length 2.5400) (name "IN" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at 7.6200 0.0000 180) (length 2.5400) (name "OUT" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at 0.0000 -5.0800 90) (length 2.5400) (name "GND" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+		)
+	)
+)

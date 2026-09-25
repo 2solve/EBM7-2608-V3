@@ -1,0 +1,13 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "EBM7_V23_proyecto")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto.kicad_sym")(options "")(descr "Simbolos generados del proyecto, pinout verificada contra datasheet"))
+	(lib (name "EBM7_V23_proyecto2")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto2.kicad_sym")(options "")(descr "Simbolos generados del proyecto, pinout verificada contra datasheet"))
+	(lib (name "EBM7_V23_proyecto3")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto3.kicad_sym")(options "")(descr "BAV199 generado, pinout de datasheet"))
+	(lib (name "EBM7_V23_proyecto4")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto4.kicad_sym")(options "")(descr "ISO7141 generado, pinout de datasheet"))
+	(lib (name "EBM7_V23_proyecto5")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto5.kicad_sym")(options "")(descr "AD7124-8 generado, pinout de datasheet ADI Rev F"))
+	(lib (name "EBM7_V23_proyecto6")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto6.kicad_sym")(options "")(descr "NFM18PC pasante: 1=In 2=GND 3=Out (Murata p.2; corrigido 2026-09-03)"))
+	(lib (name "EBM7_V23_proyecto7")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto7.kicad_sym")(options "")(descr "TPS26613 gerado, pinout de datasheet TI SLVSFE3C rev. C"))
+	(lib (name "EBM7_V23_proyecto8")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto8.kicad_sym")(options "")(descr "AO3400A: Q_NMOS_GSD do KiCad achatado; 1=G 2=S 3=D conferido no desenho AOS rev.3.1 p.1"))
+	(lib (name "EBM7_V23_proyecto9")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto9.kicad_sym")(options "")(descr "TPS7A2025PDBVR: LP5907 do KiCad achatado; 1 IN 2 GND 3 EN 4 NC 5 OUT conferido em TI SBVS338H p.3 fig.4-4"))
+	(lib (name "EBM7_V23_proyecto10")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto10.kicad_sym")(options "")(descr "ADR4525BRZ: 1 NIC 2 VIN 3 NIC 4 GND 5 NIC 6 VOUT 7 NIC 8 DNC, conferido na Figura 1 da folha ADI Rev. G. O simbolo da V2.2 tinha so 7 pinos, faltava-lhe o 8"))
+)

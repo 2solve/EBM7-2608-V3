@@ -1,0 +1,81 @@
+(footprint "TestPad_Via"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2Solve PCB Library 'TestPad_Via', recuperado da PCB V2.2 (fabricada) em 2026-09-04.")
+	(attr through_hole)
+	(property "Reference" "REF**"
+		(at -0.635 -0.814275 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2dd774f3-3620-4d40-a2bc-00ef5c7c16d4")
+		(effects
+			(font
+				(size 0.61 0.61)
+				(thickness 0.102)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TestPad_Via"
+		(at -0.3937 3.12039 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7125d49f-c54b-486b-8109-7ffc28499796")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6c6d3a8-9645-4a3c-a38b-f27cc419a5b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b7d7480-95ea-462e-8da9-0cb06307584b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "Load_Cell_Module-V1.0")
+	(sheetfile "Load_Cell_Module-V1.0.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.1 1.1)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "8dee0679-7ac6-4317-aa7e-458a653b96c8")
+	)
+	(embedded_fonts no)
+	(fp_rect
+		(start -0.8 -0.8)
+		(end 0.8 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1ed87dae-97a4-4ff9-bbdc-3e7ae511c63c")
+	)
+)

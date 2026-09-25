@@ -1,0 +1,13 @@
+(version 1)
+# Barreira PLC/campo (24-09-2026): DGND e a massa logica do CM4 (MainBoard: SCW12B-05 isola 24V- de GND).
+# DIGSIDE = redes do lado PLC (DGND, +5V, +3.3V, SPI de P1, pinos de P1). O valor e de guarda (1,0 mm);
+# o valor final vem da reescrita do RF5 (CLR/CPG do ISO7141CC = 3,7 mm, SLLSE83F p.17).
+(rule barreira_PLC_campo
+  (condition "A.hasNetclass('DIGSIDE') && !B.hasNetclass('DIGSIDE')")
+  (constraint clearance (min 1.0mm)))
+
+# B1 (2026-09-25): pads NC 3/6/7 do U12 (TPS7A4001, SBVS162B p.3: 'left open or tied to GND'), sem ligacao.
+# Com o land pattern TI (p.22) o hueco entre pads e 0,20 mm; a classe Power24 pede 0,25. Excepcao so para esses pads.
+(rule U12_pads_NC
+  (condition "A.memberOfFootprint('U12') && B.memberOfFootprint('U12') && (A.NetName == 'unconnected-(U12-NC-Pad3)' || A.NetName == 'unconnected-(U12-NC-Pad6)' || A.NetName == 'unconnected-(U12-NC-Pad7)')")
+  (constraint clearance (min 0.2mm)))

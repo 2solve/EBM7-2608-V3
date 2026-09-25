@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "EBM7_V23")(type "KiCad")(uri "${KIPRJMOD}/footprints/EBM7_V23.pretty")(options "")(descr "Footprints do projecto EBM7 V2.3: 26 recuperados da PCB V2.2 (2solve PCB Library) + K78U SIP-3, SOT-23-8, C_0805. NFM0603 renumerado a Murata."))
+)

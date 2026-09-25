@@ -1,0 +1,206 @@
+(footprint "R-78HBxx-0.5L_SIP-3H"
+	(version 20241229)
+	(generator "f3_32_placement")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "RECOM R-78HBxx-0.5L (sufixo L = pinos dobrados a 90 graus, modulo deitado): corpo 17,5 x 11,5 x 8,5 mm sobre a placa; 3 pinos rectangulares 0,70 x 0,25 a 2,54 mm numa coluna no extremo, furo 1,00 (diagonal do pino 0,74 + 0,26; como o furo de 1,00 recomendado pela Mornsun para o K78U, p.4; coroa 0,30 na largura 1,60). Pinos: 1 +Vin, 2 GND, 3 +Vout - datasheet REV 5/2019 p.5. Substitui o K78U05-500R3L (mesmo formato deitado, 0,5 mm mais baixo). Sentido do corpo: pinos 1-2-3 numa coluna e corpo para o lado +X, igual ao desenho 'Recommended Footprint Details (Top View)' do sufixo L (p.5: furos 1-2-3 da esquerda para a direita, envolvente 11,5 x 19,0 para cima) e ao do K78Uxx-500R3L (p.4) rodado 90 graus - mesma quiralidade; envolvente Recom -1,0..18,0 mm a partir da fila de furos, coberta pelo courtyard -1,3..18,3. Confirmar com amostra fisica no prototipo. 2026-09-15.")
+	(tags "RECOM R-78HB SIP-3 horizontal L")
+	(attr through_hole)
+	(property "Reference" "REF**"
+		(at 9 -7 0)
+		(layer "F.SilkS")
+		(uuid "0eb5a3c9-e432-4730-bb7a-9e0c45304611")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R-78HBxx-0.5L_SIP-3H"
+		(at 9 7 0)
+		(layer "F.Fab")
+		(uuid "e8c97eda-e5b5-4a18-b4fb-698092c6439c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0.55 -5.75)
+		(end 18.05 -5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d18602ce-0226-4642-9df2-9dca9975663e")
+	)
+	(fp_line
+		(start 18.05 -5.75)
+		(end 18.05 5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c4a4595-fd0c-4467-afb0-c1ddd32f52e8")
+	)
+	(fp_line
+		(start 18.05 5.75)
+		(end 0.55 5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d594da5-11d3-42a3-99b0-00958a602e3b")
+	)
+	(fp_line
+		(start 0.55 5.75)
+		(end 0.55 -5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "532ba376-d44f-417b-a87b-e0e2dbdc385f")
+	)
+	(fp_line
+		(start 0.43 -5.87)
+		(end 18.17 -5.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "888ec912-4796-4688-9099-35860b27409d")
+	)
+	(fp_line
+		(start 18.17 -5.87)
+		(end 18.17 5.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93168d79-bbe6-494d-a294-2fd25f8d2abd")
+	)
+	(fp_line
+		(start 18.17 5.87)
+		(end 0.43 5.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33d2a1b7-2709-438a-b725-64eb39e798db")
+	)
+	(fp_line
+		(start 0.43 5.87)
+		(end 0.43 3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83bfa939-f10e-472d-ac96-465921974248")
+	)
+	(fp_line
+		(start 0.43 -3.8)
+		(end 0.43 -5.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d5b5084-ef19-439f-bc9c-dad0cf150cd7")
+	)
+	(fp_line
+		(start -1.3 -6)
+		(end 18.3 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98192a2d-cc42-4a7b-9daa-7be2dbd55c61")
+	)
+	(fp_line
+		(start 18.3 -6)
+		(end 18.3 6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "896b39d8-a30a-4c3f-ac96-4a3025076ba1")
+	)
+	(fp_line
+		(start 18.3 6)
+		(end -1.3 6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ccc70a9-4733-428c-8be2-59fc3727d9ed")
+	)
+	(fp_line
+		(start -1.3 6)
+		(end -1.3 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4a19c19-c80b-4ae5-899c-781570ef2dc4")
+	)
+	(fp_line
+		(start 0.43 -3.8)
+		(end -0.65 -3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd304f91-bd58-4b64-9013-004f024688eb")
+	)
+	(pad "1" thru_hole rect
+		(at 0 -2.54)
+		(size 1.6 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7f829b0-0ce5-4b3a-b90b-a54b043b3544")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 1.6 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d293fd5d-5619-4185-b331-064ac1982c51")
+	)
+	(pad "3" thru_hole oval
+		(at 0 2.54)
+		(size 1.6 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d47a108-d612-4729-acbe-bc399d6356c2")
+	)
+	(model "${KICAD10_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_RECOM_R-78HB-0.5L_THT.step"
+		(offset
+			(xyz 0 2.54 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

@@ -1,0 +1,36 @@
+(kicad_symbol_lib
+	(version 20250316)
+	(generator "kicad-mcp-symbol-gen")
+	(symbol "BAV199"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "BAV199"
+			(at 0 -2.54 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "SOT23-3"
+			(at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 0 -7.62 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "BAV199 dual serie SOT-23 (1=A inferior, 2=K superior, 3=comun). Fuga 5 nA @ 70 V - eleccion deliberada vs BAT54S (2 uA). Datasheet onsemi en Documentos_de_Referencia"
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(symbol "BAV199_1_1"
+			(rectangle (start -5.0800 2.5400) (end 5.0800 -2.5400) (stroke (width 0)(type default)) (fill (type background)))
+			(pin passive line (at -7.6200 0.0000 0) (length 2.5400) (name "A1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at 7.6200 0.0000 180) (length 2.5400) (name "K2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at 0.0000 -5.0800 90) (length 2.5400) (name "COM" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+		)
+	)
+)

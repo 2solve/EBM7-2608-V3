@@ -1,0 +1,9 @@
+# Historial local de KiCad (tiene su propio .git) y ficheros de sesion
+.history/
+*.kicad_prl
+~*.lck
+fp-info-cache
+*-backups/
+
+# Copias de seguridad de edicion: el historial de git cumple esa funcion
+*.antes_*

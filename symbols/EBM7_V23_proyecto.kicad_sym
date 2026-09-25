@@ -1,0 +1,36 @@
+(kicad_symbol_lib
+	(version 20250316)
+	(generator "kicad-mcp-symbol-gen")
+	(symbol "K78U05-500R3"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "K78U05-500R3"
+			(at 0 -2.54 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "SIP3_K78U"
+			(at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" ""
+			(at 0 -7.62 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Mornsun K78U05-500R3, DC-DC 9-90Vin 5V/0.5A, SIP-3. Pinout verificada: datasheet Mornsun (Documentos_de_Referencia)"
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(symbol "K78U05-500R3_1_1"
+			(rectangle (start -7.62 2.54) (end 7.62 -2.54) (stroke (width 0)(type default)) (fill (type background)))
+			(pin power_in line (at -10.16 0.0000 0) (length 2.5400) (name "VIN" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+			(pin power_out line (at 10.16 0.0000 180) (length 2.5400) (name "VOUT" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+			(pin power_in line (at 0.0000 -5.0800 90) (length 2.5400) (name "GND" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+		)
+	)
+)

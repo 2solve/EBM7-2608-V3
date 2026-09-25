@@ -1,0 +1,45 @@
+(kicad_symbol_lib
+	(version 20250316)
+	(generator "kicad-mcp-symbol-gen")
+	(symbol "TPS26613DDFR"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -7.62 6.985 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Package" "SOT-23-8 (DDF), 2.9 x 1.6 mm"
+			(at 0 -27.94 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "TPS26613DDFR"
+			(at -7.62 -8.255 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" ""
+			(at 0 -13.97 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2661.pdf"
+			(at 0 -16.51 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "TI TPS26613DDFR, protector de laco 4-20 mA, SOT-23-8 (DDF). Auto-retry, loop power mode. IOL 25/32/40 mA, RON 4,8/7,5/12,5 ohm, tOL 55 us max, IN/OUT +-55 V, fuga +-0,1 uA. Pinout verificada: datasheet TI SLVSFE3C rev. C, Fig. 6-1 e Tab. 6-1. ATENCAO: +Vs maximo absoluto 32 V - NAO ligar aos +24V_ADC, que o D200 grampeia a 48,4 V. Corte de sobretensao de OUT referido a +Vs."
+			(at 0 -19.05 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(symbol "TPS26613DDFR_1_1"
+			(rectangle (start -7.62 10.16) (end 7.62 -10.16) (stroke (width 0)(type default)) (fill (type background)))
+			(pin passive line (at -10.16 0 0) (length 2.5400) (name "IN" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at 10.16 0 180) (length 2.5400) (name "OUT" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+			(pin power_in line (at 6.35 12.70 270) (length 2.5400) (name "+Vs" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+			(pin power_in line (at -6.35 -12.70 90) (length 2.5400) (name "GND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+			(pin input line (at -3.81 -12.70 90) (length 2.5400) (name "MODE" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+			(pin power_in line (at -1.27 -12.70 90) (length 2.5400) (name "-Vs" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+			(pin input line (at 1.27 -12.70 90) (length 2.5400) (name "VSNS" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+			(pin output line (at 3.81 -12.70 90) (length 2.5400) (name "SGOOD" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+		)
+	)
+)
