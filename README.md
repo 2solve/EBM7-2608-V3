@@ -129,8 +129,12 @@ A alimentação do lado do PLC (U2) está desenhada na folha 4, junto ao isolado
 
 ### Folha 6 — Laços 4-20 mA (×4)
 
-Cadeia por canal, do borne ao ADC: **P2** → TVS **SMBJ36A** → fusível **F3-F6** → protector **TPS26613** (U8-U11) →
-**burden 110 Ω 0,1 %** → ferrite → RC anti-aliasing → clamps **BAV199** para +3.3V_ANA → ADC.
+Cada canal tem **dois caminhos** no P2, em pares de pinos:
+
+- **Alimentação do sensor** (pino par, `+24V_AINn`): +24V_ADC → fusível **F3-F6** → borne, com o TVS **SMBJ36A** junto ao
+  conector.
+- **Sinal** (pino ímpar, `AINn`): borne → TVS **824500301** → protector **TPS26613** (U8-U11) → **burden 110 Ω 0,1 %** →
+  ferrite → RC anti-aliasing → clamps **BAV199** para +3.3V_ANA → ADC.
 
 - **Burden 110 Ω** (decisão de 21-09-2026, na caixa de texto da folha): 2,20 V a 20 mA, fim de escala do ADC (2,5 V) a 22,7 mA.
   Cumpre a nota (2) da Tabela 8-2 do TPS26613 (SLVSFE3C p.20): 4,46 V > 2,20 V. Os 409 Ω da V2.2 davam 8,18 V e violavam-na.
