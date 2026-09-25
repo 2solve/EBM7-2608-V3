@@ -3336,7 +3336,7 @@
 			(uuid "3ce21bd1-63b0-401b-9b2d-b622894a7517")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR022")
 					(unit 1)
@@ -3427,7 +3427,7 @@
 			(uuid "72758067-3897-4863-a377-7ee7bef15132")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "C5")
 					(unit 1)
@@ -3503,7 +3503,7 @@
 			(uuid "8efae328-0046-4d59-9097-bf32a851d175")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR024")
 					(unit 1)
@@ -3594,7 +3594,7 @@
 			(uuid "7ee82bd1-805b-469f-ac04-010aa8ddc390")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "R7")
 					(unit 1)
@@ -3683,7 +3683,7 @@
 			(uuid "45ef34f9-d602-48ff-a664-e7f7bec8995c")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "C11")
 					(unit 1)
@@ -3759,7 +3759,7 @@
 			(uuid "51be7e61-0c47-4964-adfe-5a9136b926ac")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR045")
 					(unit 1)
@@ -3835,7 +3835,7 @@
 			(uuid "4611ec52-a17c-417b-8e16-b88288b0cfa3")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR033")
 					(unit 1)
@@ -3911,7 +3911,7 @@
 			(uuid "4dfe2adb-09a0-4416-91a0-1ca520a1e321")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR044")
 					(unit 1)
@@ -4000,7 +4000,7 @@
 			(uuid "6399579d-39ce-409d-ac4c-1a6daf6ffc40")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "C7")
 					(unit 1)
@@ -4089,7 +4089,7 @@
 			(uuid "efaf69fb-44fe-4782-b1c5-f3eb1f1ce418")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "FB3")
 					(unit 1)
@@ -4166,7 +4166,7 @@
 			(uuid "893a003d-9e2e-4f0d-8f2c-0a0d7561ce75")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#FLG09")
 					(unit 1)
@@ -4242,7 +4242,7 @@
 			(uuid "b4b3262b-ac04-4854-b43e-6955444e7521")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR037")
 					(unit 1)
@@ -4333,7 +4333,7 @@
 			(uuid "423f3cfb-74b0-4ee2-b5ef-5dfc015b2e94")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "R2")
 					(unit 1)
@@ -4409,7 +4409,7 @@
 			(uuid "94213c33-efc3-4da9-ba53-d5deae6f2fd6")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "T6")
 					(unit 1)
@@ -4498,7 +4498,7 @@
 			(uuid "0ab666b2-674c-47ee-84b4-6de99fb006fb")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "D4")
 					(unit 1)
@@ -4587,7 +4587,7 @@
 			(uuid "1fd2650e-85b2-47e2-b51f-215973e0486f")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "C10")
 					(unit 1)
@@ -4679,7 +4679,7 @@
 			(uuid "30caa84f-088d-437f-84c8-14c4032fe007")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "U1")
 					(unit 1)
@@ -4774,7 +4774,7 @@
 			(uuid "7669e12f-2de1-45c9-a69a-b5d5d26bf961")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "U4")
 					(unit 1)
@@ -4865,7 +4865,7 @@
 			(uuid "fcd9a834-4da8-4da5-8460-bca2763ceaa5")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "R6")
 					(unit 1)
@@ -4954,7 +4954,7 @@
 			(uuid "515e84f8-e806-41a9-91e6-3a79bde43170")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "D5")
 					(unit 1)
@@ -5030,7 +5030,7 @@
 			(uuid "0624ff22-a51f-44de-81f8-1a430b9c37af")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR019")
 					(unit 1)
@@ -5107,7 +5107,7 @@
 			(uuid "5f0ceeef-1da2-42ac-9bcf-b6bbd21e07f7")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR043")
 					(unit 1)
@@ -5183,7 +5183,7 @@
 			(uuid "9452854d-e8cd-45e6-8007-6bf4b04df9d7")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR040")
 					(unit 1)
@@ -5272,7 +5272,7 @@
 			(uuid "2ead309b-405c-47b7-871c-4566fbf648ca")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "C12")
 					(unit 1)
@@ -5348,7 +5348,7 @@
 			(uuid "132f2f1a-6f1f-4e1c-8951-b27a46c7d2e7")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR034")
 					(unit 1)
@@ -5425,7 +5425,7 @@
 			(uuid "c34bf95b-a687-493d-84e7-f38ff425833f")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR039")
 					(unit 1)
@@ -5514,7 +5514,7 @@
 			(uuid "78d21e7f-bf05-462d-b209-49c4f31cdd78")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "FB2")
 					(unit 1)
@@ -5590,7 +5590,7 @@
 			(uuid "72fc4c83-5b4c-4c97-ae7b-29f953ad3ead")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR018")
 					(unit 1)
@@ -5679,7 +5679,7 @@
 			(uuid "1a5d1c3d-fa8a-49c5-b285-f42e576c33fe")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "C3")
 					(unit 1)
@@ -5756,7 +5756,7 @@
 			(uuid "64daad5f-af2e-44d6-90a6-276fcb393c8e")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#FLG010")
 					(unit 1)
@@ -5845,7 +5845,7 @@
 			(uuid "28c52f84-1ffb-4537-9eff-0e8ce336330a")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "C4")
 					(unit 1)
@@ -5921,7 +5921,7 @@
 			(uuid "6f18873c-3ac5-47f2-95b7-7c06052e57cd")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR023")
 					(unit 1)
@@ -6010,7 +6010,7 @@
 			(uuid "17000ffb-3987-4748-b6d7-2dd2fa492a35")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "FB1")
 					(unit 1)
@@ -6086,7 +6086,7 @@
 			(uuid "99dc8cf1-681a-40e7-ae3f-a21a5b335be4")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR042")
 					(unit 1)
@@ -6162,7 +6162,7 @@
 			(uuid "730a70ca-ee59-4a7c-a3a2-547680dd8200")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR036")
 					(unit 1)
@@ -6238,7 +6238,7 @@
 			(uuid "a30d4a42-7ac8-46f5-886e-131ec56fa11f")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "T4")
 					(unit 1)
@@ -6314,7 +6314,7 @@
 			(uuid "94dd1766-8f25-4c5a-a296-8f7249b65d84")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR020")
 					(unit 1)
@@ -6391,7 +6391,7 @@
 			(uuid "7c82e1d0-a832-47b2-8464-18c75f36e901")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR021")
 					(unit 1)
@@ -6482,7 +6482,7 @@
 			(uuid "3f273196-8e79-4ab8-9340-64e7ac49c139")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "R4")
 					(unit 1)
@@ -6559,7 +6559,7 @@
 			(uuid "b58a5c9e-d75d-4223-a1d8-03d45421f608")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR028")
 					(unit 1)
@@ -6635,7 +6635,7 @@
 			(uuid "2c26f788-fb09-4979-82d1-1671f88d4bf9")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR017")
 					(unit 1)
@@ -6712,7 +6712,7 @@
 			(uuid "a9c0602a-f2ef-442d-a292-50882604ff23")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#FLG08")
 					(unit 1)
@@ -6788,7 +6788,7 @@
 			(uuid "9b4b26f8-dbdd-4ff2-b05a-c1a622b278e3")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR025")
 					(unit 1)
@@ -6864,7 +6864,7 @@
 			(uuid "98c9ef84-dc2a-4524-a068-879c3771e604")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR031")
 					(unit 1)
@@ -6953,7 +6953,7 @@
 			(uuid "4a5166d2-c178-45ca-8474-42648dc27b2e")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "R5")
 					(unit 1)
@@ -7044,7 +7044,7 @@
 			(uuid "a9832103-1ae8-4560-a6c8-3496e6ad5379")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "R3")
 					(unit 1)
@@ -7142,7 +7142,7 @@
 			(uuid "995ebc74-b20d-4435-8214-ada914d2d752")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "U3")
 					(unit 1)
@@ -7218,7 +7218,7 @@
 			(uuid "1ee7eef1-6e0c-4d48-a772-2465e47c2d52")
 		)
 		(instances
-			(project "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+			(project "IC2S-EBM7-2608-V2.3-Fixo420"
 				(path "/ea39faa7-2c85-4731-99b5-dc619370fd78/82f69a70-41b2-4a25-bf1f-10081957b908"
 					(reference "#PWR041")
 					(unit 1)

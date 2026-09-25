@@ -7,7 +7,10 @@ carga** e **um NTC de junta fria**, medidos por um ADC sigma-delta de 24 bits (*
 Esta é a variante **fixa**: as quatro entradas são só 4-20 mA. A variante com selecção 0-10 V / 4-20 mA por MOSFET vive noutro
 projecto (`EBM7-2608-V23_configuravel`).
 
-Projecto KiCad 10 (testado em 10.0.5). Abrir `IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI.kicad_pro`.
+Projecto KiCad 10 (testado em 10.0.5). Abrir
+`Desenvolvimento_IC2S-EBM7-2608-V2.3-Fixo420/Projeto_IC2S-EBM7-2608-V2.3-Fixo420/IC2S-EBM7-2608-V2.3-Fixo420.kicad_pro`.
+
+Identificador desta versão: **`IC2S-EBM7-2608-V2.3-Fixo420`** (produto IC2S-EBM7-2608, versão 2.3, variante fixa 4-20 mA).
 
 ---
 
@@ -26,14 +29,34 @@ Não está pronta para fabricar: ver [Pendentes](#pendentes).
 
 ## Estrutura do repositório
 
-| Caminho | O que é |
-|---|---|
-| `IC2S_…_V23L_Load_Cell_4AI.kicad_pro` / `.kicad_sch` / `.kicad_pcb` | projecto, folha raiz e placa |
-| `01_conectores` … `08_ntc.kicad_sch` | as oito folhas (uma por bloco, ver abaixo) |
-| `…kicad_dru` | regras de DRC próprias da placa (barreira e excepção dos pads NC do U12) |
-| `footprints/EBM7_V23.pretty`, `symbols/` | bibliotecas locais (referidas por `${KIPRJMOD}`) |
-| `output/drc_report.json` | último relatório de DRC guardado |
-| `*.md` na raiz | verificações e relatórios (ver [Documentos](#documentos-nesta-pasta)) |
+Segue o padrão de pastas dos produtos da 2Solve (o mesmo de `Produtos/Axcel_Sensor`): uma pasta por versão, e dentro dela
+projecto, documentos e ficheiros de fabricação, sempre com o identificador no nome.
+
+```
+Desenvolvimento_IC2S-EBM7-2608-V2.3-Fixo420/
+├── Projeto_IC2S-EBM7-2608-V2.3-Fixo420/
+│   ├── IC2S-EBM7-2608-V2.3-Fixo420.kicad_pro / .kicad_sch / .kicad_pcb / .kicad_dru
+│   ├── 01_conectores … 08_ntc.kicad_sch          (as oito folhas)
+│   ├── footprints/EBM7_V23.pretty, symbols/       (bibliotecas locais, por ${KIPRJMOD})
+│   ├── Documentos_de_Referência-IC2S-EBM7-2608-V2.3-Fixo420/   (datasheets das peças desta placa)
+│   └── Outputs/drc_report.json
+├── Documentos_IC2S-EBM7-2608-V2.3-Fixo420/
+│   ├── 00-Especificações_Técnicas_…/   verificações, relatórios, perguntas ao firmware
+│   ├── 01-Esquemáticos_…/              Schematic-….pdf, ….step, …-Top_View.pdf, …-Bottom_View.pdf
+│   ├── 02-Pinout_…/                    (vazio)
+│   └── 03-Diagrama_Blocos_…/           (vazio)
+└── Arquivos_Fabricação_IC2S-EBM7-2608-V2.3-Fixo420/
+    ├── 00-Gerbers_…/                   ….GTL .G1 .G2 .GBL .GTS .GBS .GTO .GBO .Outline, ….TXT (furação), .gbrjob, .zip
+    ├── 01-BOM_List_…/                  …-Preliminar.xlsx
+    ├── 02-Pick-and-Place_…/            …-Pick-and-Place-Preliminar.csv
+    └── 03-Stencil_…/                   ….GTP (pasta topo), ….GBP (pasta base)
+```
+
+Os ficheiros de fabricação e as vistas foram **gerados pelo `kicad-cli` a partir do projecto** a 25-09-2026 e são
+**preliminares**: a placa ainda não passou a revisão independente do roteamento. Não enviar a fabricar sem essa revisão.
+
+Os documentos em `00-Especificações_Técnicas` são registos da data em que foram escritos e citam os nomes antigos dos
+ficheiros (`IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI.*`), anteriores à arrumação de 25-09-2026.
 
 **Onde está cada decisão:** cada folha do esquemático tem um bloco de texto «DECISOES DESTA FOLHA» com notas numeradas. Neste
 README cita-se sempre como *folha N, nota M*. A nota é a fonte; este documento resume.
@@ -179,7 +202,9 @@ corrigidas, vale o circuito:
 
 ---
 
-## Documentos nesta pasta
+## Documentos
+
+Estão em `Desenvolvimento_…/Documentos_…/00-Especificações_Técnicas_IC2S-EBM7-2608-V2.3-Fixo420/`.
 
 | Ficheiro | Conteúdo |
 |---|---|
@@ -200,7 +225,11 @@ corrigidas, vale o circuito:
 - Reescrever e assinar o requisito RF5 do escopo com a barreira real (DGND ↔ GND_ADC).
 - Corrigir as notas desactualizadas listadas acima.
 - Decidir a pré-carga do U1 na bancada.
-- BOM final, ficheiro de montagem (pick-and-place) e stencil.
+- BOM final: a `…-Preliminar.xlsx` tem 57 linhas, 137 peças, 1 DNP (R8) e 136 a montar.
+- Pick-and-place: o CSV tem 147 linhas, mais 11 do que as peças a montar — os 8 pontos de teste (T1-T8, `TestPad_Via`) e os
+  3 fiduciais. Marcar esses footprints como «excluir dos ficheiros de posição» na placa antes de enviar à montadora.
+- Datasheets que faltam em `Documentos_de_Referência`: SMBJ36A-13-F (Diodes), MBR1H100SFT3G (onsemi), BLM18PG471SN1D
+  (Murata), LED KG EELP41.22, TDK C3216X5R1H106K, e as resistências genéricas (Yageo RC0603, Panasonic ERJ).
 - Verificação do roteamento (`2shw-pcb:check-roteamento`) em **sessão independente**, antes de fabricar.
 - O mecanismo da avaria em campo da V2.2 (família 2) **não foi medido** (medição G8 com osciloscópio). As protecções desta
   versão são correctas por si, mas não há prova de que resolvem essa avaria.

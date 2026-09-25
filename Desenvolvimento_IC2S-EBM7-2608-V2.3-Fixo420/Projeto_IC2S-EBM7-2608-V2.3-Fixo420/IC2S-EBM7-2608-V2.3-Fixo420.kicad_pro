@@ -508,7 +508,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI.kicad_pro",
+    "filename": "IC2S-EBM7-2608-V2.3-Fixo420.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1130,8 +1130,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI.kicad_sch",
-        "name": "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI",
+        "filename": "IC2S-EBM7-2608-V2.3-Fixo420.kicad_sch",
+        "name": "IC2S-EBM7-2608-V2.3-Fixo420",
         "uuid": "ea39faa7-2c85-4731-99b5-dc619370fd78"
       }
     ],
@@ -1141,7 +1141,7 @@
   "sheets": [
     [
       "ea39faa7-2c85-4731-99b5-dc619370fd78",
-      "IC2S_Extension_Board_Model_7-EBM7-2608_V23L_Load_Cell_4AI"
+      "IC2S-EBM7-2608-V2.3-Fixo420"
     ],
     [
       "462de662-7fe2-4cf0-84f3-517ddf5d3aa2",
