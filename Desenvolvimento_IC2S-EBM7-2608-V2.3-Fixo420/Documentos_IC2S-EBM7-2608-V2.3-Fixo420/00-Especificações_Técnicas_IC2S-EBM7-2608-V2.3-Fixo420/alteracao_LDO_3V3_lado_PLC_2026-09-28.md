@@ -36,3 +36,14 @@ Carga real: só o lado 1 do ISO7141, ≤ 8 mA a 40 Mbps (TI SLLSE83F p.10). O IS
 - **Stock Mouser baixo** (99 un. a 16-09): confirmar antes da compra (LCSC tem).
 - ESD 1 kV HBM (entrada no +5V do P1, conector interno: só conta no manuseio).
 - Preços e stock são das consultas gravadas (16 e 25-09), não de hoje: a web da Mouser bloqueia leitura automática.
+
+## Complemento: circuito recomendado do datasheet (SPX3819 rev. 2.0.5, Fig. 18 «Standard Application Circuit», p.8)
+
+| Elemento | Datasheet | Na placa |
+|---|---|---|
+| EN | alto (> 2 V); «ENABLE may be tied directly to VIN» | EN directo a +5V ✅ |
+| BYP | condensador «(Opt.)»; pode ficar aberto se o ruído não importa (p.7) | aberto ✅ |
+| Entrada | medido com CIN = 1 µF (p.2-3) | 10 µF cerâmico ✅ |
+| Saída | desenhado polarizado; 2,2 µF electrolítico ou 1 µF tântalo (p.7) | C8 10 µF + C9 100 nF + **C49 2,2 µF**, todos cerâmicos |
+
+**C49 = 2,2 µF C1608X5R1E225K080AB** (MPN já na BOM) acrescentado em paralelo à saída do U2, para a saída ficar como a do SPX3819 da V2.2 em campo (2,2 µF + 10 µF + 100 nF, só cerâmicos; a V2.2 não tinha nenhum electrolítico junto do SPX3819: os únicos eram C5/C11 de 100 µF nos +24V_ADC dos PDM2). No PCB: clone da pegada do C8, a 3 mm do U2, **2 ligações por rotear**. ERC 0; DRC 0 erros, sem avisos novos.

@@ -235,7 +235,7 @@ Estão em `Desenvolvimento_…/Documentos_…/00-Especificações_Técnicas_IC2S
 
 ## Pendentes
 
-- **Rotear as 6 ligações do U2** (SPX3819, 28-09) e depois regenerar Gerbers, BOM, pick-and-place e stencil: os de 28-09 ainda mostram o MCP1824.
+- **Rotear as ligações do U2 (SPX3819) e do C49 (2,2 µF na saída do U2)**, 28-09, e depois regenerar Gerbers, BOM, pick-and-place e stencil: os de 28-09 ainda mostram o MCP1824.
 - Serigrafia: 62 avisos, legendas do H1, texto «5V» fora do contorno.
 - Reescrever e assinar o requisito RF5 do escopo com a barreira real (DGND ↔ GND_ADC).
 - Corrigir as notas desactualizadas listadas acima.
