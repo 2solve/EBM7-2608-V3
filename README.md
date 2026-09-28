@@ -107,7 +107,7 @@ A alimentação do lado do PLC (U2) está desenhada na folha 4, junto ao isolado
 
 ### Folha 4 — Barreira digital
 
-- **Alimentação do lado PLC:** +5 V do P1 → **U2** (MCP1824) → **+3.3V** (massa DGND), com C6/C8/C9 e os pontos de teste
+- **Alimentação do lado PLC:** +5 V do P1 → **U2** (SPX3819, o mesmo MPN do U3, desde 28-09; era MCP1824) → **+3.3V** (massa DGND), com C6/C8/C9 e os pontos de teste
   T3 (DGND) e T5 (+3.3V). Alimenta o lado 1 do isolador. Passou da folha 3 para esta em 25-09-2026, só no desenho
   (as ligações não mudaram); as notas que falam dela continuam na folha 3.
 - **U5 = ISO7141** passa o SPI entre o lado do PLC (DGND) e o lado analógico (GND_ADC): 3 canais de ida (MOSI, CLK, CS) e 1 de
@@ -197,6 +197,7 @@ Cada canal tem **dois caminhos** no P2, em pares de pinos:
 | 28-09 | **Ramo único de 24 V**: saem F2, D3 e C2; F1 + D2 alimentam o U1 e o +24V_ADC; +24V_REG deixa de existir | reunião: é tudo alimentado pelos mesmos 24 V, não eram canais independentes nem isolados; ganha-se espaço |
 | 28-09 | 100 nF fora do 24 V → TDK C1608X7R1H104K080AA (50 V), 24 peças; o C36 (+24V_ADC) fica GRM188R72A104KA35D (100 V) | 100 V estava sobredimensionado; pior caso fora do 24 V é o +12V_TPS a 31,7 V, por isso 50 V e não 25 V |
 | 28-09 | 1 µF → TDK C1608X7R1H105K080AB (50 V) nos quatro | havia dois MPN para a mesma função |
+| 28-09 | U2 MCP1824ST (SOT-223) → SPX3819 (SOT-23-5); **faltam rotear 6 ligações do U2** | mesmo MPN do U3; peça menor e mais barata (`alteracao_LDO_3V3_lado_PLC_2026-09-28.md`) |
 
 ---
 
@@ -234,6 +235,7 @@ Estão em `Desenvolvimento_…/Documentos_…/00-Especificações_Técnicas_IC2S
 
 ## Pendentes
 
+- **Rotear as 6 ligações do U2** (SPX3819, 28-09) e depois regenerar Gerbers, BOM, pick-and-place e stencil: os de 28-09 ainda mostram o MCP1824.
 - Serigrafia: 62 avisos, legendas do H1, texto «5V» fora do contorno.
 - Reescrever e assinar o requisito RF5 do escopo com a barreira real (DGND ↔ GND_ADC).
 - Corrigir as notas desactualizadas listadas acima.
