@@ -1649,13 +1649,13 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6faed849-2348-45bf-ac66-f75d57d672ad")
-	)
+	)
 	(junction
 		(at 40.64 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6c5b14b-5989-48a6-a869-0da4f06ef8ce")
-	)
+	)
 	(wire
 		(pts
 			(xy 58.42 50.8) (xy 58.42 63.5)
@@ -1705,7 +1705,7 @@
 			(type default)
 		)
 		(uuid "36859e1e-0688-4b9a-a482-751a1d50f1d0")
-	)
+	)
 	(wire
 		(pts
 			(xy 35.56 50.8) (xy 40.64 50.8)
@@ -1715,7 +1715,7 @@
 			(type default)
 		)
 		(uuid "44ad922b-4bb8-476e-ade6-07bd4d56a5a4")
-	)
+	)
 	(wire
 		(pts
 			(xy 58.42 63.5) (xy 63.5 63.5)
@@ -1725,7 +1725,7 @@
 			(type default)
 		)
 		(uuid "62284dde-d143-48de-863d-98ff1873f7ad")
-	)
+	)
 	(wire
 		(pts
 			(xy 46.99 50.8) (xy 58.42 50.8)
@@ -1735,7 +1735,7 @@
 			(type default)
 		)
 		(uuid "7d4ebddd-3689-4101-b3ce-137112bf9218")
-	)
+	)
 	(wire
 		(pts
 			(xy 86.36 63.5) (xy 93.98 63.5)
@@ -2016,7 +2016,7 @@
 				)
 			)
 		)
-	)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 40.64 63.5 0)
@@ -2092,7 +2092,7 @@
 				)
 			)
 		)
-	)
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 69.85 165.1 0)
@@ -2243,7 +2243,7 @@
 				)
 			)
 		)
-	)
+	)
 	(symbol
 		(lib_id "Device:Fuse")
 		(at 67.31 63.5 90)
@@ -2332,7 +2332,7 @@
 				)
 			)
 		)
-	)
+	)
 	(symbol
 		(lib_id "Device:D_Zener")
 		(at 40.64 58.42 270)
@@ -2741,7 +2741,7 @@
 				)
 			)
 		)
-	)
+	)
 	(text "13. RAMO UNICO DE 24 V (reuniao da equipa, 2026-09-28):"
 		(exclude_from_sim no)
 		(at 22.86 83.82 0)
