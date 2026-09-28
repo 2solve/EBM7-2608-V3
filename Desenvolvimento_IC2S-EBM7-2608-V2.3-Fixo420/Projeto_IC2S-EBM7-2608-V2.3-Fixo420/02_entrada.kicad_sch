@@ -1297,6 +1297,28 @@
 		)
 		(uuid "01f88a07-e539-4b66-b0ab-3ee787b53079")
 	)
+	(text "13. RAMO UNICO DE 24 V (reuniao da equipa, 2026-09-28):"
+		(exclude_from_sim no)
+		(at 22.86 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02c79742-1803-474b-a860-c9d781eea8f5")
+	)
+	(text "    Pior caso fora do 24 V: +12V_TPS a 31,7 V (folha 6,"
+		(exclude_from_sim no)
+		(at 22.86 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d08f2e4-f1fb-462f-ba40-bd3616eac44d")
+	)
 	(text "    Murata cat. 2021 p.110): MORNSUN Tab.1 p.3 pede C1 ="
 		(exclude_from_sim no)
 		(at 114.3 171.45 0)
@@ -1340,6 +1362,39 @@
 			(justify left bottom)
 		)
 		(uuid "1b633a4b-0168-4495-befd-7e015cb83e00")
+	)
+	(text "    Arranque ~30 uF: ~5 mA2s (escala da nota 10) contra"
+		(exclude_from_sim no)
+		(at 22.86 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20b95ebd-0442-454b-9227-763568bb35df")
+	)
+	(text "    F1 750 mA e D2 MBR1H100SF 1 A chegam."
+		(exclude_from_sim no)
+		(at 22.86 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22790c0e-7dad-4bb9-9248-11c08dd5bd68")
+	)
+	(text "    Perde-se a selectividade: curto no +24V_ADC abre F1."
+		(exclude_from_sim no)
+		(at 22.86 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26964185-9467-492e-9f77-d9f9984d8f8a")
 	)
 	(text "   MLCC de 50 V - mecanismo A. Peca exata por escolher."
 		(exclude_from_sim no)
@@ -1385,6 +1440,28 @@
 		)
 		(uuid "34dfc46f-9173-45f2-a556-4c8a91b2cba2")
 	)
+	(text "    1 uF = TDK C1608X7R1H105K080AB (X7R 50 V, p.35) nos 4."
+		(exclude_from_sim no)
+		(at 22.86 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3555ec2b-8e45-4704-b122-61806711cbc8")
+	)
+	(text "    150 mA2s do CC12H750MA, ~29x de margem."
+		(exclude_from_sim no)
+		(at 22.86 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f52e191-9663-42a8-b739-11384475334a")
+	)
 	(text "4. C1/C13 = 10 uF a 100 V: o clamp de 53,3 V fica acima de"
 		(exclude_from_sim no)
 		(at 114.3 83.82 0)
@@ -1418,6 +1495,17 @@
 		)
 		(uuid "56373b58-91d8-42e1-8ef4-48bdbbdd6b00")
 	)
+	(text "    TDK C1608X7R1H104K080AA (X7R 50 V, catalogo TDK p.34)."
+		(exclude_from_sim no)
+		(at 22.86 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "588ab731-dea8-42ac-b875-b258167966cd")
+	)
 	(text "    de GND_ADC (era GND_24V). Escolha do projectista 2026-09-04."
 		(exclude_from_sim no)
 		(at 114.3 179.07 0)
@@ -1439,6 +1527,28 @@
 			(justify left bottom)
 		)
 		(uuid "6bc46d03-2180-4b49-a00b-2a7c0dbd1d34")
+	)
+	(text "    saem F2, D3 e C2. Tudo vem dos mesmos 24 V: nao eram"
+		(exclude_from_sim no)
+		(at 22.86 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c3217b9-2fb3-4efa-8292-c137b1f48db4")
+	)
+	(text "    116 mA em regime, ~180 mA em falha (folha 1, nota 2):"
+		(exclude_from_sim no)
+		(at 22.86 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81d94b10-c3aa-46f0-b264-82ca0e85f657")
 	)
 	(text "   ponto unico de uniao das terras (R200/R1, removido - nota 7)."
 		(exclude_from_sim no)
@@ -1484,6 +1594,17 @@
 		)
 		(uuid "886d9d37-2b25-4beb-bfc4-b8b3c0216aa4")
 	)
+	(text "    nota 17), por isso 50 V e nao 25 V. C36 (+24V_ADC,"
+		(exclude_from_sim no)
+		(at 22.86 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d21934a-358e-4c7d-b405-d107034e9e2b")
+	)
 	(text "3. D200 = SMA6J33A-Q (Bourns): VRWM 33 V, VBR 36,7-40,6 V,"
 		(exclude_from_sim no)
 		(at 114.3 76.2 0)
@@ -1506,6 +1627,28 @@
 		)
 		(uuid "957f3349-aab8-4bbd-8346-b2cd0069674b")
 	)
+	(text "    ate 53,3 V) fica GRM188R72A104KA35D 100 V."
+		(exclude_from_sim no)
+		(at 22.86 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98cccc58-ca01-4dcf-ba62-3d26543cef97")
+	)
+	(text "    o U1 (R-78HB) e o +24V_ADC; +24V_REG deixa de existir."
+		(exclude_from_sim no)
+		(at 22.86 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "996d4fa7-ccde-45db-a2f9-8cfc3b50db92")
+	)
 	(text "    10 uF/100 V ceramico junto ao Vin (C13); C1 e o bulk"
 		(exclude_from_sim no)
 		(at 114.3 175.26 0)
@@ -1516,6 +1659,28 @@
 			(justify left bottom)
 		)
 		(uuid "9b10ee62-0208-4bad-bf3d-0d7e578336e2")
+	)
+	(text "14. CONDENSADORES (2026-09-28): 100 nF fora do 24 V ="
+		(exclude_from_sim no)
+		(at 22.86 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a28e7cf2-db72-4994-93b7-ff368fae04e0")
+	)
+	(text "    canais independentes nem isolados. F1 + D2 alimentam"
+		(exclude_from_sim no)
+		(at 22.86 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a64455c0-1ef0-46a3-a9cc-bef5897a0fc2")
 	)
 	(text "1. F1 = CC12H750MA-TR (Eaton, time-lag). I2t de fusao 150 mA2s,"
 		(exclude_from_sim no)
@@ -1605,6 +1770,17 @@
 		)
 		(uuid "c4e62cb1-7f97-4bf3-9a85-67f296c7143b")
 	)
+	(text "    3,3 uF/100 V se Vin > 50 V (clamp 53,3 V): 10 uF cumpre."
+		(exclude_from_sim no)
+		(at 22.86 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbdb3e41-de79-414d-8c1a-0d2b61b029e4")
+	)
 	(text "    (os cortos de campo param no TPS26613 e em F3-F6). 100 mA em"
 		(exclude_from_sim no)
 		(at 114.3 156.21 0)
@@ -1637,6 +1813,17 @@
 			(justify left bottom)
 		)
 		(uuid "df00b44e-0ff4-449f-ac31-edb90659ee55")
+	)
+	(text "    C1 = entrada do R-78HB: Recom R-78HB-0.5 p.4 pede"
+		(exclude_from_sim no)
+		(at 22.86 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9190864-ad13-4f56-a186-a89b8c0f8e89")
 	)
 	(junction
 		(at 46.99 50.8)
@@ -2741,193 +2928,6 @@
 				)
 			)
 		)
-	)
-	(text "13. RAMO UNICO DE 24 V (reuniao da equipa, 2026-09-28):"
-		(exclude_from_sim no)
-		(at 22.86 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02c79742-1803-474b-a860-c9d781eea8f5")
-	)
-	(text "    saem F2, D3 e C2. Tudo vem dos mesmos 24 V: nao eram"
-		(exclude_from_sim no)
-		(at 22.86 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c3217b9-2fb3-4efa-8292-c137b1f48db4")
-	)
-	(text "    canais independentes nem isolados. F1 + D2 alimentam"
-		(exclude_from_sim no)
-		(at 22.86 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a64455c0-1ef0-46a3-a9cc-bef5897a0fc2")
-	)
-	(text "    o U1 (R-78HB) e o +24V_ADC; +24V_REG deixa de existir."
-		(exclude_from_sim no)
-		(at 22.86 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "996d4fa7-ccde-45db-a2f9-8cfc3b50db92")
-	)
-	(text "    116 mA em regime, ~180 mA em falha (folha 1, nota 2):"
-		(exclude_from_sim no)
-		(at 22.86 99.05999999999999 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81d94b10-c3aa-46f0-b264-82ca0e85f657")
-	)
-	(text "    F1 750 mA e D2 MBR1H100SF 1 A chegam."
-		(exclude_from_sim no)
-		(at 22.86 102.86999999999999 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22790c0e-7dad-4bb9-9248-11c08dd5bd68")
-	)
-	(text "    Arranque ~30 uF: ~5 mA2s (escala da nota 10) contra"
-		(exclude_from_sim no)
-		(at 22.86 106.67999999999999 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "20b95ebd-0442-454b-9227-763568bb35df")
-	)
-	(text "    150 mA2s do CC12H750MA, ~29x de margem."
-		(exclude_from_sim no)
-		(at 22.86 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f52e191-9663-42a8-b739-11384475334a")
-	)
-	(text "    Perde-se a selectividade: curto no +24V_ADC abre F1."
-		(exclude_from_sim no)
-		(at 22.86 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26964185-9467-492e-9f77-d9f9984d8f8a")
-	)
-	(text "    C1 = entrada do R-78HB: Recom R-78HB-0.5 p.4 pede"
-		(exclude_from_sim no)
-		(at 22.86 118.10999999999999 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9190864-ad13-4f56-a186-a89b8c0f8e89")
-	)
-	(text "    3,3 uF/100 V se Vin > 50 V (clamp 53,3 V): 10 uF cumpre."
-		(exclude_from_sim no)
-		(at 22.86 121.91999999999999 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbdb3e41-de79-414d-8c1a-0d2b61b029e4")
-	)
-	(text "14. CONDENSADORES (2026-09-28): 100 nF fora do 24 V ="
-		(exclude_from_sim no)
-		(at 22.86 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a28e7cf2-db72-4994-93b7-ff368fae04e0")
-	)
-	(text "    TDK C1608X7R1H104K080AA (X7R 50 V, catalogo TDK p.34)."
-		(exclude_from_sim no)
-		(at 22.86 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "588ab731-dea8-42ac-b875-b258167966cd")
-	)
-	(text "    Pior caso fora do 24 V: +12V_TPS a 31,7 V (folha 6,"
-		(exclude_from_sim no)
-		(at 22.86 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d08f2e4-f1fb-462f-ba40-bd3616eac44d")
-	)
-	(text "    nota 17), por isso 50 V e nao 25 V. C36 (+24V_ADC,"
-		(exclude_from_sim no)
-		(at 22.86 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d21934a-358e-4c7d-b405-d107034e9e2b")
-	)
-	(text "    ate 53,3 V) fica GRM188R72A104KA35D 100 V."
-		(exclude_from_sim no)
-		(at 22.86 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98cccc58-ca01-4dcf-ba62-3d26543cef97")
-	)
-	(text "    1 uF = TDK C1608X7R1H105K080AB (X7R 50 V, p.35) nos 4."
-		(exclude_from_sim no)
-		(at 22.86 148.58999999999997 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3555ec2b-8e45-4704-b122-61806711cbc8")
 	)
 	(sheet_instances
 		(path "/"

@@ -47,3 +47,21 @@ Carga real: só o lado 1 do ISO7141, ≤ 8 mA a 40 Mbps (TI SLLSE83F p.10). O IS
 | Saída | desenhado polarizado; 2,2 µF electrolítico ou 1 µF tântalo (p.7) | C8 10 µF + C9 100 nF + **C49 2,2 µF**, todos cerâmicos |
 
 **C49 = 2,2 µF C1608X5R1E225K080AB** (MPN já na BOM) acrescentado em paralelo à saída do U2, para a saída ficar como a do SPX3819 da V2.2 em campo (2,2 µF + 10 µF + 100 nF, só cerâmicos; a V2.2 não tinha nenhum electrolítico junto do SPX3819: os únicos eram C5/C11 de 100 µF nos +24V_ADC dos PDM2). No PCB: clone da pegada do C8, a 3 mm do U2, **2 ligações por rotear**. ERC 0; DRC 0 erros, sem avisos novos.
+
+## Layout final (PCB de 28-09, 17:15)
+
+**Correcção à tabela acima:** o C9 (100 nF) **não é da saída do U2**. Está na mesma rede +3.3V, mas é o **bypass do VCC1 do ISO7141 (U5)**: TI SLLSE83F §10, «a 0.1-µF bypass capacitor is recommended at input and output supply pins (VCC1 and VCC2)… as close to the supply pins as possible». Durante o roteamento chegou a ser movido com o grupo do U2 (ficou a 6,3 mm do VCC1) e foi reposto.
+
+| Condensador | Função | Distância pad a pad |
+|---|---|---|
+| C9 100 nF | bypass VCC1 do U5 (pino 1); massa por via DGND a 1,0 mm | 1,93 mm |
+| C13 100 nF | bypass VCC2 do U5 (pino 16) | 1,98 mm |
+| C49 2,2 µF | saída do U2 (pino 5), o mais próximo | 1,68 mm |
+| C8 10 µF | saída do U2, atrás do C49 | 2,23 mm |
+| C6 10 µF | entrada do U2 (pino 1) | 3,03 mm |
+
+O pino 7 do U5 (EN1) também está em +3.3V, mas é entrada lógica (habilita as saídas do lado 1); não precisa de desacoplamento.
+
+Verificação: DRC kicad-cli com paridade — 0 erros, 0 avisos, 0 desligados, paridade 0. Barreira DIGSIDE/campo: 1,000 mm entre zonas DGND/GND_ADC (regra 1,0 mm), 1,04 mm entre pistas e pads. Gerbers, furação, PnP, stencil, BOM, vistas, STEP e PDF do esquemático regenerados a partir desta placa.
+
+Pendentes (não bloqueiam): C1/C2 do U1 (R-78HB) a 10,7 e 12,4 mm — a Recom pede «fitted close to the converter pins»; C35 (10 µF/100 V, +24V_ADC) a 0,53 mm do bordo com o eixo perpendicular (risco de fissura por flexão/despainelização).

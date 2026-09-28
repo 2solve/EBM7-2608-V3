@@ -934,6 +934,10 @@
       },
       {
         "netclass": "DIGSIDE",
+        "pattern": "unconnected-(U2-BP-Pad4)"
+      },
+      {
+        "netclass": "DIGSIDE",
         "pattern": "/CLK"
       },
       {
