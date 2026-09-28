@@ -64,4 +64,17 @@ O pino 7 do U5 (EN1) também está em +3.3V, mas é entrada lógica (habilita as
 
 Verificação: DRC kicad-cli com paridade — 0 erros, 0 avisos, 0 desligados, paridade 0. Barreira DIGSIDE/campo: 1,000 mm entre zonas DGND/GND_ADC (regra 1,0 mm), 1,04 mm entre pistas e pads. Gerbers, furação, PnP, stencil, BOM, vistas, STEP e PDF do esquemático regenerados a partir desta placa.
 
-Pendentes (não bloqueiam): C1/C2 do U1 (R-78HB) a 10,7 e 12,4 mm — a Recom pede «fitted close to the converter pins»; C35 (10 µF/100 V, +24V_ADC) a 0,53 mm do bordo com o eixo perpendicular (risco de fissura por flexão/despainelização).
+**Correcção (18:19):** a linha de pendentes da versão anterior atribuía o C35 ao U1 e falava de «C1/C2 do U1». C1/C2 são os nomes do datasheet da Recom, não referências da placa. Pelo esquemático: a entrada do U1 é o **C1** (folha 02, nota 9: «C1 = entrada do R-78HB»), a saída é o **C3** (folha 03), e o C35/C36/R27 pertencem à folha 06 (laços). O C2 da placa já não existe (saiu com o ramo único de 24 V).
+
+## Condensadores do U1 (PCB de 28-09, 18:19)
+
+| Condensador (Recom) | Placa | Distância pad a pad |
+|---|---|---|
+| C1, entrada | **C1** 10 µF/100 V | +24V_ADC → pino 1: 2,94 mm; massa → pino 2: 2,92 mm; via GND_ADC a 1,62 mm |
+| C2, saída | **C3** 22 µF | +5V_REG → pino 3: 2,32 mm; massa → pino 2: 4,98 mm; via GND_ADC a 1,05 mm |
+
+Antes estavam a 10,9 e 12,4 mm; a Recom pede «C1 and C2 are required and should be fitted close to the converter pins». C4/C5 continuam no filtro do +5V_REG para o FB1, fora do laço do conversor.
+
+C35 (folha 06) passou de 0,53 mm para 2,23 mm do bordo; o eixo continua perpendicular ao bordo (só importa se a placa for em painel com V-cut desse lado).
+
+DRC kicad-cli com paridade: 0 erros, 0 desligados, paridade 0; 1 aviso cosmético (texto «C35» sobre o pad do C36). Pacote de fabricação regenerado desta placa (18:23).
