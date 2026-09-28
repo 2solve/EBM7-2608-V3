@@ -6806,7 +6806,7 @@
 			(uuid "66ef1319-c0c7-48f5-85dc-9afe8b090f74")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.45 2.2 90)
+			(at 1.8 2.4 90)
 			(layer "F.SilkS")
 			(uuid "6ca32d4c-a3b5-4d47-9066-b1cd26d9cc29")
 			(effects

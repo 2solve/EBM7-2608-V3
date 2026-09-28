@@ -2248,12 +2248,6 @@
 		(color 0 0 0 0)
 		(uuid "e3f7e394-b522-4b13-b2a5-015d40cea60a")
 	)
-	(junction
-		(at 128.27 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1b417ff-072a-45cb-9929-8253412900e5")
-	)
 	(no_connect
 		(at 111.76 111.76)
 		(uuid "17b4a625-1b0e-41c1-a0f6-4f522380a223")
@@ -2425,16 +2419,6 @@
 			(type default)
 		)
 		(uuid "445e6b5d-6260-43f5-9503-6ed83cfd0db9")
-	)
-	(wire
-		(pts
-			(xy 128.27 80.01) (xy 128.27 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a726545-d588-4a04-9196-a6dd863ce7ad")
 	)
 	(wire
 		(pts
@@ -2785,16 +2769,6 @@
 			(justify right bottom)
 		)
 		(uuid "02cbae85-bd28-45ac-84e4-fbe61f7fdd99")
-	)
-	(label "+2.5_VREF"
-		(at 236.22 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6e71e14-b9fa-4d1b-ab46-df86228a90fa")
 	)
 	(global_label "GND_ADC"
 		(shape passive)
