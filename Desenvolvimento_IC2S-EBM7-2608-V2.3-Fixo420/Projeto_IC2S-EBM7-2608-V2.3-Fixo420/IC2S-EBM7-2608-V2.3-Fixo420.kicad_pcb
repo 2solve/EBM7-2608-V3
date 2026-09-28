@@ -360,7 +360,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -396,7 +396,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -604,7 +604,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -640,7 +640,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1958,7 +1958,7 @@
 			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net "+24V_REG")
+			(net "+24V_ADC")
 			(pintype "passive")
 			(uuid "4c356704-5e60-4391-81cc-7a687d0a2253")
 		)
@@ -2000,7 +2000,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -2036,7 +2036,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2470,178 +2470,6 @@
 			)
 			(rotate
 				(xyz -0 0 0)
-			)
-		)
-	)
-	(footprint "EBM7_V23:C_1210_3225Metric"
-		(layer "F.Cu")
-		(uuid "1220a68c-2eac-4f46-b2dd-fc8f960ef406")
-		(at 147.2 132.2 -90)
-		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
-		(tags "capacitor")
-		(property "Reference" "C2"
-			(at 0 2.1 90)
-			(layer "F.SilkS")
-			(uuid "3bda0e05-dbf4-4f89-9141-4766bd07dea1")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "10uF/100V"
-			(at 0 2.3 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef0dd34f-7027-42e5-9220-13c1d19b8499")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b38ea60-0fb3-4e04-843b-1887f43e9840")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "97f3696e-e1b2-470a-a115-697fc77934ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9937b770-f136-4702-b26a-2dd97a9952a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "GRM32EC72A106ME05L"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bdd8605d-3dce-4a12-80ab-081d60aa0095")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "C_*")
-		(path "/dc966404-66d2-45f9-bab0-0c169c132973/20e6c2be-03b3-4a50-ae41-3682864c2ec1")
-		(sheetname "/2 Entrada e proteccao/")
-		(sheetfile "02_entrada.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.711252 1.36)
-			(end 0.711252 1.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bfa977a2-9a18-47c5-a6fb-1e03b13bafb4")
-		)
-		(fp_line
-			(start -0.711252 -1.36)
-			(end 0.711252 -1.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8c80f38d-d5a8-48b4-bc6a-9cb37caee0c1")
-		)
-		(fp_rect
-			(start -2.3 -1.6)
-			(end 2.3 1.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "c6f8ab6e-3bac-4c2f-be61-160525ad4fff")
-		)
-		(fp_rect
-			(start -1.6 -1.25)
-			(end 1.6 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "0e8f5a09-ea87-46ac-a28e-5e24b207fa78")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "173fe5b8-5094-434f-922b-6611d566ad86")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.475 0 270)
-			(size 1.15 2.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.217391)
-			(net "+24V_ADC")
-			(pintype "passive")
-			(uuid "f18f0e53-5f2f-4c37-b66f-8e47b8fba296")
-		)
-		(pad "2" smd roundrect
-			(at 1.475 0 270)
-			(size 1.15 2.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.217391)
-			(net "GND_ADC")
-			(pintype "passive")
-			(uuid "85f327f8-c732-40ca-bffe-69508e0deda3")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -3546,7 +3374,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -3582,7 +3410,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6431,7 +6259,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -6467,7 +6295,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7427,7 +7255,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/16V"
+		(property "Value" "1uF/50V"
 			(at -3.72999 -0.3429 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -7463,7 +7291,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C105K4RACTU"
+		(property "MPN" "C1608X7R1H105K080AB"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10343,7 +10171,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -10379,7 +10207,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10568,163 +10396,6 @@
 			)
 			(rotate
 				(xyz -0 0 0)
-			)
-		)
-	)
-	(footprint "EBM7_V23:SOD123"
-		(layer "F.Cu")
-		(uuid "4531050f-cf43-42d2-9415-45515ebb3d8f")
-		(at 137.2 130.3 90)
-		(descr "2Solve PCB Library 'SOD123', recuperado da PCB V2.2 (fabricada) em 2026-09-04. Barra de catodo (F.SilkS) junto ao pad 1 acrescentada em 2026-09-04: na V2.3 o pino 1 e o CATODO (convencao KiCad = fabricante); a V2.2 nao tinha marca de polaridade.")
-		(property "Reference" "D3"
-			(at -0.762 1.827325 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ac95d676-b2da-41a5-b2a0-3d7efcd13e38")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "MBR1H100SF"
-			(at -1.8923 3.34899 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e137baad-e748-411d-84c9-89aa6bcd53ed")
-			(effects
-				(font
-					(size 1.524 1.524)
-					(thickness 0.254)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "366d9607-f9b7-428b-affa-1931d7b631fe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "995f94b9-d74c-4aeb-a631-ec0326a9f019")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MBR1H100SFT3G"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "902fb31c-3cf9-402f-8918-262f51f0445d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/dc966404-66d2-45f9-bab0-0c169c132973/264d5648-875e-4e4a-8364-33b3dbe3b33e")
-		(sheetname "/2 Entrada e proteccao/")
-		(sheetfile "02_entrada.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 2.3 -0.8)
-			(end 2.3 0.8)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "24ccd756-b515-4c39-b8d1-96990725dc00")
-		)
-		(fp_line
-			(start -0.55 -0.8)
-			(end 0.55 -0.8)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e31394ed-7239-45e6-980d-a0072ed8f9c9")
-		)
-		(fp_line
-			(start -0.55 0.8)
-			(end 0.55 0.8)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "15d383d1-7b10-4a78-b478-85aba1ca680d")
-		)
-		(fp_rect
-			(start -2.3 -1.05)
-			(end 2.55 1.05)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "a902e173-23aa-4b35-8328-110f7bc2eb52")
-		)
-		(pad "1" smd rect
-			(at 1.45 0 90)
-			(size 1.2 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+24V_ADC")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "bf84dfed-5c2f-44c9-ac70-31faf41dd301")
-		)
-		(pad "2" smd rect
-			(at -1.45 0 90)
-			(size 1.2 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D3-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "774269f1-2a69-47c5-8e07-419e11fafa82")
-		)
-		(embedded_fonts no)
-		(embedded_files
-			(file
-				(name "SW3DPS-SOD123-DEFAULT.STEP")
-				(type other)
-				(checksum "C4FECFF8D0781760EF392A60E1291262")
-			)
-		)
-		(model "kicad-embed://SW3DPS-SOD123-DEFAULT.STEP"
-			(offset
-				(xyz -0.00009 -0.00005 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -11360,7 +11031,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -11396,7 +11067,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13384,7 +13055,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -13420,7 +13091,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13912,7 +13583,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/16V"
+		(property "Value" "1uF/50V"
 			(at -3.72999 -0.3429 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -13948,7 +13619,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C105K4RACTU"
+		(property "MPN" "C1608X7R1H105K080AB"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15583,7 +15254,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -15619,7 +15290,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16844,7 +16515,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -16880,7 +16551,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17195,7 +16866,7 @@
 			(at 1.45 0)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+24V_REG")
+			(net "+24V_ADC")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "b61b07f2-f696-4df2-a6ca-2ed1c266bb0c")
@@ -17491,7 +17162,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -17527,7 +17198,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19175,7 +18846,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -19211,7 +18882,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19663,7 +19334,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -19699,7 +19370,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20355,7 +20026,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "+24V_REG")
+			(net "+24V_ADC")
 			(pinfunction "VIN_1")
 			(pintype "power_in")
 			(uuid "4758aeff-9282-4efa-8541-9b3753cebf2b")
@@ -20656,7 +20327,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/50V"
 			(at -3.72999 -0.3429 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -20692,7 +20363,7 @@
 				)
 			)
 		)
-		(property "MPN" "885012206002"
+		(property "MPN" "C1608X7R1H105K080AB"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23775,7 +23446,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -23811,7 +23482,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25886,7 +25557,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -25922,7 +25593,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26876,7 +26547,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -26912,7 +26583,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27379,7 +27050,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -27415,7 +27086,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29238,7 +28909,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -29274,7 +28945,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29483,7 +29154,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -29519,7 +29190,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30020,7 +29691,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -30056,7 +29727,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32500,7 +32171,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -32536,7 +32207,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32745,7 +32416,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -32781,7 +32452,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32989,7 +32660,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -33025,7 +32696,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33477,7 +33148,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at -3.72999 -0.3429 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -33513,7 +33184,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36112,251 +35783,6 @@
 			)
 		)
 	)
-	(footprint "EBM7_V23:1206F"
-		(layer "F.Cu")
-		(uuid "fc82ced8-760a-4ec5-a60e-1b10f27afab3")
-		(at 135 130.4 -90)
-		(descr "2Solve PCB Library '1206F', recuperado da PCB V2.2 (fabricada) em 2026-09-04.")
-		(property "Reference" "F2"
-			(at 2.815 -1.794999 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "256eeac1-162d-4ae2-90de-cfb06d1b9806")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "CC12H750MA-TR"
-			(at -1.7907 3.47599 270)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "53a77867-ce60-47fc-85e4-8d2eeafc23a5")
-			(effects
-				(font
-					(size 1.524 1.524)
-					(thickness 0.254)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "db165a0c-a3c0-40a4-8cb3-a0d398d7deea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ad74705-69a7-4fc2-aba2-7fc9898b241e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC12H750MA-TR"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "880ba975-343e-49f0-85cc-abe261e6056d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "*Fuse*")
-		(path "/dc966404-66d2-45f9-bab0-0c169c132973/fb245793-5c87-46b0-9b17-ffc819e66edf")
-		(sheetname "/2 Entrada e proteccao/")
-		(sheetfile "02_entrada.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0.4 0.75)
-			(end -0.4 0.75)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "07e0b558-5b95-47be-98bc-d9f4de247d77")
-		)
-		(fp_line
-			(start 0.4 -0.75)
-			(end -0.4 -0.75)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "acd442d0-c3b2-415c-9f0c-5577176d1a55")
-		)
-		(fp_rect
-			(start -2.15 -1.1)
-			(end 2.15 1.1)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d095529e-1958-42e1-98d5-f93c35a112f1")
-		)
-		(fp_line
-			(start 1.7 0.9)
-			(end -1.7 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.13")
-			(uuid "bb694f6e-7dca-49e4-86e1-2b902bc48930")
-		)
-		(fp_line
-			(start -1.7 -0.9)
-			(end -1.7 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.13")
-			(uuid "83de51ba-dda2-49fd-8bf6-a7f7ec01aca3")
-		)
-		(fp_line
-			(start 1.7 -0.9)
-			(end 1.7 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.13")
-			(uuid "46bc3622-cf41-413f-958a-1f3d50c3040f")
-		)
-		(fp_line
-			(start 1.7 -0.9)
-			(end -1.7 -0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.13")
-			(uuid "2da343cb-7baf-4fd5-84a2-142393dfab23")
-		)
-		(fp_line
-			(start 2 0.95)
-			(end -2 0.95)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.15")
-			(uuid "abb646df-9d32-4506-9345-023448c7b585")
-		)
-		(fp_line
-			(start 0.5 0)
-			(end -0.5 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.15")
-			(uuid "efae42c7-288a-466f-a5da-7aaa7ee484c0")
-		)
-		(fp_line
-			(start 0 -0.5)
-			(end 0 0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.15")
-			(uuid "ef8634f5-166b-42b5-8216-44b7206252b6")
-		)
-		(fp_line
-			(start -2 -0.95)
-			(end -2 0.95)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.15")
-			(uuid "655a4652-9645-4615-b83c-522cce9bc3c8")
-		)
-		(fp_line
-			(start 2 -0.95)
-			(end 2 0.95)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.15")
-			(uuid "98ad562a-7ac4-40e9-afd7-ef6c9ab59b52")
-		)
-		(fp_line
-			(start 2 -0.95)
-			(end -2 -0.95)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "User.15")
-			(uuid "b7f9c336-550f-45dd-b2e0-f28efcb8f375")
-		)
-		(pad "1" smd rect
-			(at -1.35 0)
-			(size 1.7 1.1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+24V")
-			(pintype "passive")
-			(uuid "7f155b53-932a-47a1-a14a-65c860748812")
-		)
-		(pad "2" smd rect
-			(at 1.35 0)
-			(size 1.7 1.1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D3-A)")
-			(pintype "passive")
-			(uuid "7c6cd1d3-9ccd-4e3b-bb9e-473b84623fec")
-		)
-		(embedded_fonts no)
-		(embedded_files
-			(file
-				(name "User Library-FUSER_nanoSMD.STEP")
-				(type other)
-				(checksum "568637DDA8F46356D30E96E40BB423C2")
-			)
-		)
-		(model "kicad-embed://User Library-FUSER_nanoSMD.STEP"
-			(offset
-				(xyz 0.00008 0.00011 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -90)
-			)
-		)
-	)
 	(footprint "EBM7_V23:0603C"
 		(layer "F.Cu")
 		(uuid "fe568d81-41b4-4529-a87d-7d744328c80c")
@@ -36375,7 +35801,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/50V"
 			(at -3.72999 -0.3429 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -36411,7 +35837,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C105K4RACTU"
+		(property "MPN" "C1608X7R1H105K080AB"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38720,14 +38146,6 @@
 		(uuid "aa4d67a5-0558-4e5c-b123-274b5ccf26df")
 	)
 	(segment
-		(start 149.2 133.8)
-		(end 147.325 133.8)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "GND_ADC")
-		(uuid "ab4aaa11-abfd-478c-8104-1fce04ed47f0")
-	)
-	(segment
 		(start 133.4943 103.4)
 		(end 133.4943 102.4215)
 		(width 0.25)
@@ -38806,14 +38224,6 @@
 		(layer "F.Cu")
 		(net "GND_ADC")
 		(uuid "b26102cc-fb5c-472c-b4ec-fd8a6c5a4ded")
-	)
-	(segment
-		(start 147.325 133.8)
-		(end 147.2 133.675)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "GND_ADC")
-		(uuid "b4f461d0-603f-4f74-8c40-b41a4bf3c898")
 	)
 	(segment
 		(start 166.258 118.9)
@@ -40744,12 +40154,12 @@
 		(uuid "2d9237ac-c11b-4f21-86b2-0bb49861a3f0")
 	)
 	(segment
-		(start 137.2 128.85)
-		(end 139.85 128.85)
+		(start 139.8 126.6)
+		(end 139.8 127.2)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "+24V_ADC")
-		(uuid "331363c0-f378-4758-9d63-a981514cdbc1")
+		(uuid "3f70545a-5395-454b-99d1-6aecf8e847c1")
 	)
 	(segment
 		(start 145.95 109.15)
@@ -40760,7 +40170,15 @@
 		(uuid "45b0d627-bc1d-4169-95d5-7c1ba26d17d0")
 	)
 	(segment
-		(start 139.85 128.85)
+		(start 139.8 127.2)
+		(end 139.8 128.8)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+24V_ADC")
+		(uuid "46a11182-81fa-4afe-b704-d588e9b3945c")
+	)
+	(segment
+		(start 139.8 128.8)
 		(end 141.1 130.1)
 		(width 0.5)
 		(layer "F.Cu")
@@ -40782,6 +40200,14 @@
 		(layer "F.Cu")
 		(net "+24V_ADC")
 		(uuid "581329dd-bf18-4e1c-aa5d-1e753dc51891")
+	)
+	(segment
+		(start 137.05 126.6)
+		(end 139.8 126.6)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+24V_ADC")
+		(uuid "7148acdd-d1e5-4128-bad7-a7992a761f28")
 	)
 	(segment
 		(start 141.2 108.525)
@@ -40872,6 +40298,14 @@
 		(uuid "c7a14653-9b22-4f4d-8e23-afb134b9e63f")
 	)
 	(segment
+		(start 140.8778 128.2778)
+		(end 144.8872 128.2778)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+24V_ADC")
+		(uuid "db33f3d6-938d-48ea-b461-c0296155810b")
+	)
+	(segment
 		(start 146.275 108.825)
 		(end 145.95 109.15)
 		(width 0.2)
@@ -40894,6 +40328,14 @@
 		(layer "F.Cu")
 		(net "+24V_ADC")
 		(uuid "e7b51a3a-5400-44b9-a41f-64a0260e669a")
+	)
+	(segment
+		(start 139.8 127.2)
+		(end 140.8778 128.2778)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+24V_ADC")
+		(uuid "f9b4aa3d-908e-4d12-b19c-8653281f9411")
 	)
 	(segment
 		(start 141.9 107.825)
@@ -41022,38 +40464,6 @@
 		(layer "B.Cu")
 		(net "+24V_ADC")
 		(uuid "dba469c4-8371-4b6d-9923-da44ebd37647")
-	)
-	(segment
-		(start 139.8 126.6)
-		(end 139.8 127.2)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+24V_REG")
-		(uuid "3f70545a-5395-454b-99d1-6aecf8e847c1")
-	)
-	(segment
-		(start 137.05 126.6)
-		(end 139.8 126.6)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+24V_REG")
-		(uuid "7148acdd-d1e5-4128-bad7-a7992a761f28")
-	)
-	(segment
-		(start 140.8778 128.2778)
-		(end 144.8872 128.2778)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+24V_REG")
-		(uuid "db33f3d6-938d-48ea-b461-c0296155810b")
-	)
-	(segment
-		(start 139.8 127.2)
-		(end 140.8778 128.2778)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+24V_REG")
-		(uuid "f9b4aa3d-908e-4d12-b19c-8653281f9411")
 	)
 	(segment
 		(start 123.65 114.45)
@@ -44011,14 +43421,6 @@
 		(uuid "2dfc6d9d-0247-4be1-bd5d-a4fe6377d1b3")
 	)
 	(segment
-		(start 137.2 131.75)
-		(end 135 131.75)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D3-A)")
-		(uuid "6e4c0fa9-3df1-426b-8434-436396925484")
-	)
-	(segment
 		(start 158.94375 109)
 		(end 157.64375 109)
 		(width 0.25)
@@ -44351,7 +43753,7 @@
 		(uuid "6bf10acb-6675-48f6-a96f-d234dff188af")
 	)
 	(segment
-		(start 135.6 129.1388)
+		(start 132 129.14)
 		(end 125.4 129.1388)
 		(width 0.5)
 		(layer "F.Cu")

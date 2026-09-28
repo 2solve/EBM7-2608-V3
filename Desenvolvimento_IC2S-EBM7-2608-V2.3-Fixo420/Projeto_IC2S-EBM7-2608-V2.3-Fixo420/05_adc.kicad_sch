@@ -3307,7 +3307,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/50V"
 			(at 182.88 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3349,7 +3349,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C105K4RACTU"
+		(property "MPN" "C1608X7R1H105K080AB"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4125,7 +4125,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at 149.86 128.27 270)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4167,7 +4167,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 10.16 0)
 			(hide yes)
 			(show_name no)
@@ -4365,7 +4365,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at 146.304 117.094 270)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4407,7 +4407,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 -5.08 0)
 			(hide yes)
 			(show_name no)
@@ -4954,7 +4954,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at 198.882 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4996,7 +4996,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5043,7 +5043,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at 220.472 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5085,7 +5085,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5668,7 +5668,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/50V"
 			(at 146.558 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5710,7 +5710,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C1608X7R1H104K080AA"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6015,7 +6015,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/50V"
 			(at 160.274 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6057,7 +6057,7 @@
 				)
 			)
 		)
-		(property "MPN" "885012206002"
+		(property "MPN" "C1608X7R1H105K080AB"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

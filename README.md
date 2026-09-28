@@ -14,7 +14,7 @@ Identificador desta versão: **`IC2S-EBM7-2608-V2.3-Fixo420`** (produto IC2S-EBM
 
 ---
 
-## Estado (25-09-2026)
+## Estado (28-09-2026)
 
 | Verificação | Resultado |
 |---|---|
@@ -52,7 +52,7 @@ Desenvolvimento_IC2S-EBM7-2608-V2.3-Fixo420/
     └── 03-Stencil_…/                   ….GTP (pasta topo), ….GBP (pasta base)
 ```
 
-Os ficheiros de fabricação e as vistas foram **gerados pelo `kicad-cli` a partir do projecto** a 25-09-2026 e são
+Os ficheiros de fabricação e as vistas foram **gerados pelo `kicad-cli` a partir do projecto** a 28-09-2026 e são
 **preliminares**: a placa ainda não passou a revisão independente do roteamento. Não enviar a fabricar sem essa revisão.
 
 Os documentos em `00-Especificações_Técnicas` são registos da data em que foram escritos e citam os nomes antigos dos
@@ -75,20 +75,25 @@ README cita-se sempre como *folha N, nota M*. A nota é a fonte; este documento 
 
 ### Folha 2 — Entrada de 24 V e protecção
 
-Caminho: P1.20 → fusíveis **F1/F2** → díodo de entrada → **+24V_ADC**, que alimenta tudo o que é analógico.
+Caminho: P1.20 → TVS **D1** → fusível **F1** → díodo **D2** → **+24V_ADC**, que alimenta tudo: o conversor U1 e os laços.
 
-- **F1, F2 = Eaton CC12H750MA (time-lag)**: o I²t de fusão (150 mA²s) fica ~44-90× acima do arranque. O fusível anterior (FF,
+- **F1 = Eaton CC12H750MA (time-lag)**: o I²t de fusão (150 mA²s) fica ~29× acima do arranque dos ~30 µF a jusante. O fusível anterior (FF,
   1,5 mA²s) abria no próprio arranque dos condensadores — um dos mecanismos da avaria em campo da V2.2 (notas 1, 2 e 10).
 - **D1 = SMA6J33A-Q** (TVS de entrada): standoff 33 V, **clamp real 53,3 V** a 11,3 A — não os 40,6 V que dizia a biblioteca
   (nota 3).
-- **C1/C13 = 10 µF / 100 V em 1210**: com o clamp a 53,3 V, um cerâmico de 50 V ficaria acima do nominal (notas 4 e 12).
-- **Ramo único +24V_ADC**: as duas ramas antigas eram iguais e saíram (nota 11).
+- **C1 = 10 µF / 100 V em 1210**, condensador de entrada do U1: o datasheet da Recom (R-78HB-0.5, p.4) pede 3,3 µF / 100 V
+  quando Vin pode passar de 50 V, e o clamp do TVS é 53,3 V (notas 4, 12 e 13).
+- **Ramo único de 24 V** (28-09-2026, nota 13): F2, D3 e C2 saíram; o +24V_REG passou a ser o próprio +24V_ADC. Com
+  116 mA em regime e ~180 mA em falha, F1 (750 mA) e D2 (1 A) chegam. Perde-se a selectividade: um curto no +24V_ADC
+  abre F1 e desliga a placa inteira.
+- **Condensadores** (nota 14): 100 nF de 50 V (TDK C1608X7R1H104K080AA) em todo o lado menos no C36, que está no
+  +24V_ADC e fica a 100 V; 1 µF com um só MPN (TDK C1608X7R1H105K080AB).
 - **Massas:** desde 24-09-2026 **GND_24V e GND_ADC são a mesma rede**. O net-tie que as unia (R1/R200) saiu (nota 7). Motivo:
   as duas são o mesmo domínio a montante; quem isola a lógica do processador é a MainBoard (conversor SCW12B-05), não esta placa.
 
 ### Folha 3 — Alimentação
 
-Cadeia analógica: +24V → **U1** (Recom R-78HB5.0-0.5L, conversor 24→5 V) → FB1 → **+5V_ADC** → **U3** (SPX3819) → **+3.3V_ANA**.
+Cadeia analógica: +24V_ADC → **U1** (Recom R-78HB5.0-0.5L, conversor 24→5 V) → FB1 → **+5V_ADC** → **U3** (SPX3819) → **+3.3V_ANA**.
 A alimentação do lado do PLC (U2) está desenhada na folha 4, junto ao isolador que alimenta.
 
 - O GND do U1 é GND_ADC: o +5V_ADC é a referência ratiométrica da célula (nota 2).
@@ -178,7 +183,7 @@ Cada canal tem **dois caminhos** no P2, em pares de pinos:
 
 ---
 
-## Alterações de 24-25/09/2026
+## Alterações de 24-28/09/2026
 
 | Data | O quê | Porquê |
 |---|---|---|
@@ -189,6 +194,9 @@ Cada canal tem **dois caminhos** no P2, em pares de pinos:
 | 25-09 | C34 → 10 µF / 100 V 1210 | CIN efectivo do TPS7A4001 |
 | 25-09 | `keepout_barreira_P1` reposto | tinha desaparecido da placa |
 | 25-09 | U2 (MCP1824) e C6/C8/C9/T3/T5 desenhados na folha 4 em vez da 3 | agrupar o lado PLC junto ao isolador; netlist igual |
+| 28-09 | **Ramo único de 24 V**: saem F2, D3 e C2; F1 + D2 alimentam o U1 e o +24V_ADC; +24V_REG deixa de existir | reunião: é tudo alimentado pelos mesmos 24 V, não eram canais independentes nem isolados; ganha-se espaço |
+| 28-09 | 100 nF fora do 24 V → TDK C1608X7R1H104K080AA (50 V), 24 peças; o C36 (+24V_ADC) fica GRM188R72A104KA35D (100 V) | 100 V estava sobredimensionado; pior caso fora do 24 V é o +12V_TPS a 31,7 V, por isso 50 V e não 25 V |
+| 28-09 | 1 µF → TDK C1608X7R1H105K080AB (50 V) nos quatro | havia dois MPN para a mesma função |
 
 ---
 
@@ -212,6 +220,7 @@ Estão em `Desenvolvimento_…/Documentos_…/00-Especificações_Técnicas_IC2S
 
 | Ficheiro | Conteúdo |
 |---|---|
+| `alteracoes_reuniao_2026-09-28.md` | revisão da reunião de 28-09: ramo único de 24 V, entrada do R-78HB, tensão dos 100 nF, MPN do 1 µF |
 | `verificacao_aplicacao_TPS26613_V23L.md` | fórmulas e notas do datasheet do TPS26613 com os valores da BOM |
 | `verificacao_aplicacao_AD7124_V23L_2026-09-24.md` | idem para o AD7124-8 (47 linhas avaliadas) |
 | `verificacao_aplicacao_D14_pistas_V23L.md` | pistas debaixo do clamp D14 |
@@ -229,11 +238,11 @@ Estão em `Desenvolvimento_…/Documentos_…/00-Especificações_Técnicas_IC2S
 - Reescrever e assinar o requisito RF5 do escopo com a barreira real (DGND ↔ GND_ADC).
 - Corrigir as notas desactualizadas listadas acima.
 - Decidir a pré-carga do U1 na bancada.
-- BOM final: a `…-Preliminar.xlsx` tem 57 linhas, 137 peças, 1 DNP (R8) e 136 a montar.
-- Pick-and-place: o CSV tem 147 linhas, mais 11 do que as peças a montar — os 8 pontos de teste (T1-T8, `TestPad_Via`) e os
+- BOM final: a `…-Preliminar.xlsx` tem 55 linhas, 134 peças, 1 DNP (R8) e 133 a montar.
+- Pick-and-place: o CSV tem 144 linhas, mais 11 do que as peças a montar — os 8 pontos de teste (T1-T8, `TestPad_Via`) e os
   3 fiduciais. Marcar esses footprints como «excluir dos ficheiros de posição» na placa antes de enviar à montadora.
 - Datasheets que faltam em `Documentos_de_Referência`: SMBJ36A-13-F (Diodes), MBR1H100SFT3G (onsemi), BLM18PG471SN1D
-  (Murata), LED KG EELP41.22, TDK C3216X5R1H106K, e as resistências genéricas (Yageo RC0603, Panasonic ERJ).
+  (Murata), LED KG EELP41.22 e as resistências genéricas (Yageo RC0603, Panasonic ERJ).
 - Verificação do roteamento (`2shw-pcb:check-roteamento`) em **sessão independente**, antes de fabricar.
 - O mecanismo da avaria em campo da V2.2 (família 2) **não foi medido** (medição G8 com osciloscópio). As protecções desta
   versão são correctas por si, mas não há prova de que resolvem essa avaria.

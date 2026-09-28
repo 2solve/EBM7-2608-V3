@@ -838,15 +838,7 @@
       },
       {
         "netclass": "Power24",
-        "pattern": "+24V_REG"
-      },
-      {
-        "netclass": "Power24",
         "pattern": "Net-(D2-A)"
-      },
-      {
-        "netclass": "Power24",
-        "pattern": "Net-(D3-A)"
       },
       {
         "netclass": "Default",
