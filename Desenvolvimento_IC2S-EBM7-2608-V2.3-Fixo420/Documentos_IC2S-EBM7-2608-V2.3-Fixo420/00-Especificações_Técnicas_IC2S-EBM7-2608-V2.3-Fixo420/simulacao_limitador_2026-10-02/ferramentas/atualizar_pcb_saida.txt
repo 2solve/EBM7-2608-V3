@@ -1,0 +1,128 @@
+== religados (6)
+    C6: /82f69a70-41b2-4a25-bf1f-10081957b908/957b7963-b86f-4881-8e64-acc51add0509 (/3 Alimentacao/) -> /e9834b1b-d21f-47ea-ad01-85c539f0c334/7832ee09-240d-410e-825e-493b86c87875 (/4 Barreira digital/)
+    C8: /82f69a70-41b2-4a25-bf1f-10081957b908/b0958978-347e-4865-bfb1-11af3cfbcf8f (/3 Alimentacao/) -> /e9834b1b-d21f-47ea-ad01-85c539f0c334/aaf034fd-2de3-456b-bc35-1d9453805fce (/4 Barreira digital/)
+    C9: /82f69a70-41b2-4a25-bf1f-10081957b908/986e4897-1fb9-4eec-8d5d-8cb648533e7b (/3 Alimentacao/) -> /e9834b1b-d21f-47ea-ad01-85c539f0c334/a9324fe2-633e-4283-ba70-f609551f003d (/4 Barreira digital/)
+    T3: /82f69a70-41b2-4a25-bf1f-10081957b908/f1d2386e-8986-4343-9e58-0d787658c1fb (/3 Alimentacao/) -> /e9834b1b-d21f-47ea-ad01-85c539f0c334/3197afbe-f92f-40d0-a442-827977154ab8 (/4 Barreira digital/)
+    T5: /82f69a70-41b2-4a25-bf1f-10081957b908/439748dc-9564-4642-b699-91fadc464747 (/3 Alimentacao/) -> /e9834b1b-d21f-47ea-ad01-85c539f0c334/8d09ac37-9927-47b1-9816-41d9a166bdfd (/4 Barreira digital/)
+    U2: /82f69a70-41b2-4a25-bf1f-10081957b908/daea2131-e529-4861-a5d7-0cb5cdcbdd98 (-) -> /e9834b1b-d21f-47ea-ad01-85c539f0c334/edcdb861-26fb-4e95-abe7-1b14e1706cb2 (/4 Barreira digital/)
+== apagados (16)
+    C26 EBM7_V23:0603C (159.700, 93.450)
+    C29 EBM7_V23:0603C (159.700, 102.100)
+    C31 EBM7_V23:0603C (159.700, 111.050)
+    C32 EBM7_V23:0603C (159.700, 119.700)
+    C37 EBM7_V23:0603C (147.900, 106.950)
+    C38 EBM7_V23:C_1206_3216Metric (148.300, 103.275)
+    R22 EBM7_V23:0603R (150.300, 102.500)
+    R23 EBM7_V23:0603R (150.900, 106.900)
+    R24 EBM7_V23:0603R (149.400, 106.900)
+    R25 EBM7_V23:0603R (145.600, 101.800)
+    R26 EBM7_V23:0603R (143.000, 101.800)
+    U8 EBM7_V23:SOT-23-8 (163.262, 92.525)
+    U9 EBM7_V23:SOT-23-8 (163.262, 100.975)
+    U10 EBM7_V23:SOT-23-8 (163.262, 109.975)
+    U11 EBM7_V23:SOT-23-8 (163.262, 118.575)
+    U12 EBM7_V23:HVSSOP-8-1EP (145.300, 105.800)
+== substituidos (8)
+    D6: EBM7_V23:DO-214 -> EBM7_V23:DO-214AA em (168.600, 93.200); rot 0 -> 180 (desvio dos pads por número: 0°=8.384 mm, 180°=0.216 mm)
+    D7: EBM7_V23:DO-214 -> EBM7_V23:DO-214AA em (168.600, 102.000); rot 0 -> 180 (desvio dos pads por número: 0°=8.384 mm, 180°=0.216 mm)
+    D8: EBM7_V23:DO-214 -> EBM7_V23:DO-214AA em (168.600, 110.600); rot 0 -> 180 (desvio dos pads por número: 0°=8.384 mm, 180°=0.216 mm)
+    D11: EBM7_V23:DO-214 -> EBM7_V23:DO-214AA em (168.600, 119.200); rot 0 -> 180 (desvio dos pads por número: 0°=8.384 mm, 180°=0.216 mm)
+    R13: EBM7_V23:0603R -> EBM7_V23:1206R em (156.900, 91.350); rot 180 -> 180 (desvio dos pads por número: 180°=1.300 mm, 0°=4.100 mm)
+    R14: EBM7_V23:0603R -> EBM7_V23:1206R em (156.900, 100.000); rot 180 -> 180 (desvio dos pads por número: 180°=1.300 mm, 0°=4.100 mm)
+    R15: EBM7_V23:0603R -> EBM7_V23:1206R em (156.900, 109.000); rot 180 -> 180 (desvio dos pads por número: 180°=1.300 mm, 0°=4.100 mm)
+    R17: EBM7_V23:0603R -> EBM7_V23:1206R em (156.900, 117.400); rot 180 -> 180 (desvio dos pads por número: 180°=1.300 mm, 0°=4.100 mm)
+== overrides (8)
+    D6: {'LocalClearance': None, 'LocalSolderMaskMargin': None, 'LocalSolderPasteMargin': None, 'LocalZoneConnection': -1}
+    D7: {'LocalClearance': None, 'LocalSolderMaskMargin': None, 'LocalSolderPasteMargin': None, 'LocalZoneConnection': -1}
+    D8: {'LocalClearance': None, 'LocalSolderMaskMargin': None, 'LocalSolderPasteMargin': None, 'LocalZoneConnection': -1}
+    D11: {'LocalClearance': None, 'LocalSolderMaskMargin': None, 'LocalSolderPasteMargin': None, 'LocalZoneConnection': -1}
+    R13: {'LocalClearance': None, 'LocalSolderMaskMargin': None, 'LocalSolderPasteMargin': None, 'LocalZoneConnection': -1}
+    R14: {'LocalClearance': None, 'LocalSolderMaskMargin': None, 'LocalSolderPasteMargin': None, 'LocalZoneConnection': -1}
+    R15: {'LocalClearance': None, 'LocalSolderMaskMargin': None, 'LocalSolderPasteMargin': None, 'LocalZoneConnection': -1}
+    R17: {'LocalClearance': None, 'LocalSolderMaskMargin': None, 'LocalSolderPasteMargin': None, 'LocalZoneConnection': -1}
+== novos (19)
+    Q1 EBM7_V23:SOT-223-3_TabPin2 estacionado em (124.5, 145.1)
+    Q5 EBM7_V23:SOT-23 estacionado em (133.5, 145.1)
+    R40 EBM7_V23:0603R estacionado em (142.5, 145.1)
+    R44 EBM7_V23:0603R estacionado em (151.5, 145.1)
+    Q2 EBM7_V23:SOT-223-3_TabPin2 estacionado em (124.5, 154.1)
+    Q6 EBM7_V23:SOT-23 estacionado em (133.5, 154.1)
+    R41 EBM7_V23:0603R estacionado em (142.5, 154.1)
+    R45 EBM7_V23:0603R estacionado em (151.5, 154.1)
+    Q3 EBM7_V23:SOT-223-3_TabPin2 estacionado em (124.5, 163.1)
+    Q7 EBM7_V23:SOT-23 estacionado em (133.5, 163.1)
+    R42 EBM7_V23:0603R estacionado em (142.5, 163.1)
+    R46 EBM7_V23:0603R estacionado em (151.5, 163.1)
+    Q4 EBM7_V23:SOT-223-3_TabPin2 estacionado em (124.5, 172.1)
+    Q8 EBM7_V23:SOT-23 estacionado em (133.5, 172.1)
+    R43 EBM7_V23:0603R estacionado em (142.5, 172.1)
+    R47 EBM7_V23:0603R estacionado em (151.5, 172.1)
+    C50 EBM7_V23:0603C estacionado em (124.5, 181.1)
+    D26 EBM7_V23:SOD-123F estacionado em (133.5, 181.1)
+    R48 EBM7_V23:0603R estacionado em (142.5, 181.1)
+== valores (23)
+    D6: 824500301 -> SMBJ36A
+    D7: 824500301 -> SMBJ36A
+    D8: 824500301 -> SMBJ36A
+    D11: 824500301 -> SMBJ36A
+    Q1: SOT-223-3_TabPin2 -> BSP297
+    Q5: SOT-23 -> BC847C
+    R40: 0603R -> 18R
+    R44: 0603R -> 100k
+    Q2: SOT-223-3_TabPin2 -> BSP297
+    Q6: SOT-23 -> BC847C
+    R41: 0603R -> 18R
+    R45: 0603R -> 100k
+    Q3: SOT-223-3_TabPin2 -> BSP297
+    Q7: SOT-23 -> BC847C
+    R42: 0603R -> 18R
+    R46: 0603R -> 100k
+    Q4: SOT-223-3_TabPin2 -> BSP297
+    Q8: SOT-23 -> BC847C
+    R43: 0603R -> 18R
+    R47: 0603R -> 100k
+    C50: 0603C -> 100nF/50V
+    D26: D_SOD-123F -> BZT52H-C10
+    R48: 0603R -> 22k
+== campos (8)
+    D6.MPN: 824500301 -> SMBJ36A-13-F
+    D7.MPN: 824500301 -> SMBJ36A-13-F
+    D8.MPN: 824500301 -> SMBJ36A-13-F
+    D11.MPN: 824500301 -> SMBJ36A-13-F
+    R13.MPN: RG1608P-111-B-T5 -> TNPW1206110RBEEA
+    R14.MPN: RG1608P-111-B-T5 -> TNPW1206110RBEEA
+    R15.MPN: RG1608P-111-B-T5 -> TNPW1206110RBEEA
+    R17.MPN: RG1608P-111-B-T5 -> TNPW1206110RBEEA
+== pads (4)
+    R10.2: Net-(U8-OUT) -> Net-(Q5-E)
+    R11.2: Net-(U9-OUT) -> Net-(Q6-E)
+    R12.2: Net-(U10-OUT) -> Net-(Q7-E)
+    R16.2: Net-(U11-OUT) -> Net-(Q8-E)
+== redes_novas (13)
+    Net-(Q5-E)
+    Net-(Q6-E)
+    Net-(Q7-E)
+    Net-(Q8-E)
+    /6 Lacos 4-20mA/LIM1_G
+    Net-(Q1-S)
+    /6 Lacos 4-20mA/VZ_LIM
+    /6 Lacos 4-20mA/LIM2_G
+    Net-(Q2-S)
+    /6 Lacos 4-20mA/LIM3_G
+    Net-(Q3-S)
+    /6 Lacos 4-20mA/LIM4_G
+    Net-(Q4-S)
+== renomeadas (4)
+    Net-(U10-OUT) -> Net-(Q7-E): 1 pistas/vias, 0 zonas
+    Net-(U11-OUT) -> Net-(Q8-E): 1 pistas/vias, 0 zonas
+    Net-(U8-OUT) -> Net-(Q5-E): 2 pistas/vias, 0 zonas
+    Net-(U9-OUT) -> Net-(Q6-E): 1 pistas/vias, 0 zonas
+== orfas (5)
+    +12V_TPS: 47 pistas sem nenhum pad na rede
+    +12V_TPS: 6 vias sem nenhum pad na rede
+    /6 Lacos 4-20mA/VSNS: 30 pistas sem nenhum pad na rede
+    /6 Lacos 4-20mA/VSNS: 4 vias sem nenhum pad na rede
+    Net-(U12-FB): 4 pistas sem nenhum pad na rede
+== avisos (0)
+
+gravado em (cópia temporária; depois copiada para a PCB do projecto)
