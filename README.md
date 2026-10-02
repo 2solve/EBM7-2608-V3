@@ -134,6 +134,10 @@ A alimentação do lado do PLC (U2) está desenhada na folha 4, junto ao isolado
 
 ### Folha 6 — Laços 4-20 mA (×4)
 
+> **Rama `lacos-limitador-discreto` (02-10-2026):** os TPS26613 (U8-U11) e o TPS7A4001 (U12, +12V_TPS) foram substituídos
+> por um limitador discreto por laço (BSP297 + BC847C + 18 Ω, porta num zener de 10 V). O que se descreve abaixo sobre o TPS
+> vale para a `main`. Ver `00-Especificações_Técnicas…/alteracao_limitador_discreto_lacos_2026-10-02.md`.
+
 Cada canal tem **dois caminhos** no P2, em pares de pinos:
 
 - **Alimentação do sensor** (pino par, `+24V_AINn`): +24V_ADC → fusível **F3-F6** → borne, com o TVS **SMBJ36A** junto ao
@@ -235,6 +239,12 @@ Estão em `Desenvolvimento_…/Documentos_…/00-Especificações_Técnicas_IC2S
 
 ## Pendentes
 
+- **Rama `lacos-limitador-discreto`: o esquemático está à frente da PCB.**
+  - Actualizar a PCB a partir do esquemático: entram Q1-Q8, R40-R48, D26 e C50; saem U8-U12, R22-R26, C26, C29, C31, C32,
+    C37 e C38.
+  - Trocar D6/D7/D8/D11 para DO-214AA e R13-R15/R17 para 1206.
+  - **Dar a cada BSP297 (Q1-Q4) cobre para RthJA ≲ 90 K/W.**
+  - Depois, ensaio de bancada da falha mantida a 32 V (ver o documento da alteração).
 - **Rotear as ligações do U2 (SPX3819) e do C49 (2,2 µF na saída do U2)**, 28-09, e depois regenerar Gerbers, BOM, pick-and-place e stencil: os de 28-09 ainda mostram o MCP1824.
 - Serigrafia: 62 avisos, legendas do H1, texto «5V» fora do contorno.
 - Reescrever e assinar o requisito RF5 do escopo com a barreira real (DGND ↔ GND_ADC).

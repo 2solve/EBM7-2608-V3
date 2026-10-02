@@ -1,0 +1,25 @@
+do netlist: RS 18.0 ohm, RG 100000.0 ohm, RZ 22000.0 ohm, burden 110.0 ohm, R18 3300.0 ohm, C27 1.0000000000000001e-07 F, zener BZT52H-C10 (10.0 V), TVS SMBJ36A, MOSFET BSP297, NPN BC847C
+--- normal, 20 mA
+bus   18 V: burden  20.01 mA | V no transmissor 14.76 V | porta  9.25 V | VZ  9.92 V
+bus   24 V: burden  20.01 mA | V no transmissor 20.76 V | porta  9.27 V | VZ  9.94 V
+bus   32 V: burden  20.01 mA | V no transmissor 28.76 V | porta  9.28 V | VZ  9.96 V
+--- falhas mantidas
+transmissor em curto bus 32         -40 C: burden  39.18 mA  168.8 mW | MOSFET  1.03 W (Tj    78 C pegada minima /    32 C 6 cm2) | no burden  4.31 V | I(R18)  0.17 mA AIN_ADC 3.73 V
+transmissor em curto bus 32          27 C: burden  31.13 mA  106.6 mW | MOSFET  0.85 W (Tj   125 C pegada minima /    86 C 6 cm2) | no burden  3.42 V | I(R18)  0.00 mA AIN_ADC 3.42 V
+transmissor em curto bus 32          60 C: burden  26.94 mA   79.9 mW | MOSFET  0.75 W (Tj   146 C pegada minima /   112 C 6 cm2) | no burden  2.96 V | I(R18)  0.00 mA AIN_ADC 2.96 V
+transmissor em curto bus 32          85 C: burden  23.72 mA   61.9 mW | MOSFET  0.67 W (Tj   162 C pegada minima /   132 C 6 cm2) | no burden  2.61 V | I(R18)  0.00 mA AIN_ADC 2.61 V
+AIN a 32 V externo                  -40 C: burden  39.18 mA  168.8 mW | MOSFET  1.06 W (Tj    82 C pegada minima /    34 C 6 cm2) | no burden  4.31 V | I(R18)  0.17 mA AIN_ADC 3.73 V
+AIN a 32 V externo                   27 C: burden  31.13 mA  106.6 mW | MOSFET  0.87 W (Tj   127 C pegada minima /    88 C 6 cm2) | no burden  3.42 V | I(R18)  0.00 mA AIN_ADC 3.42 V
+AIN a 32 V externo                   60 C: burden  26.94 mA   79.8 mW | MOSFET  0.77 W (Tj   148 C pegada minima /   114 C 6 cm2) | no burden  2.96 V | I(R18)  0.00 mA AIN_ADC 2.96 V
+AIN a 32 V externo                   85 C: burden  23.72 mA   61.9 mW | MOSFET  0.69 W (Tj   164 C pegada minima /   133 C 6 cm2) | no burden  2.61 V | I(R18)  0.00 mA AIN_ADC 2.61 V
+AIN a 32 V externo burden aberta    -40 C: burden   0.00 mA    0.0 mW | MOSFET  0.03 W (Tj   -36 C pegada minima /   -38 C 6 cm2) | no burden  8.40 V | I(R18)  1.39 mA AIN_ADC 3.81 V
+AIN a 32 V externo burden aberta     27 C: burden   0.00 mA    0.0 mW | MOSFET  0.03 W (Tj    31 C pegada minima /    29 C 6 cm2) | no burden  8.44 V | I(R18)  1.36 mA AIN_ADC 3.96 V
+AIN a 32 V externo burden aberta     60 C: burden   0.00 mA    0.0 mW | MOSFET  0.03 W (Tj    64 C pegada minima /    62 C 6 cm2) | no burden  8.46 V | I(R18)  1.37 mA AIN_ADC 3.94 V
+AIN a 32 V externo burden aberta     85 C: burden   0.00 mA    0.0 mW | MOSFET  0.03 W (Tj    89 C pegada minima /    87 C 6 cm2) | no burden  8.48 V | I(R18)  1.39 mA AIN_ADC 3.90 V
+--- contraste: modelo Infineon completo com nos termicos (RthCA = 90 K/W, pegada minima)
+transmissor em curto bus 32, modelo termico,  -40 C: burden  39.18 mA | MOSFET  1.03 W | Tj simulada   72.6 C
+transmissor em curto bus 32, modelo termico,   27 C: burden  31.16 mA | MOSFET  0.85 W | Tj simulada  119.9 C
+transmissor em curto bus 32, modelo termico,   60 C: burden  26.99 mA | MOSFET  0.75 W | Tj simulada  142.1 C
+--- surto 1 kV em P2.7
++1 kV: P2.7   -4.8/ +72.6 V | Vds max  72.6 V | P MOSFET pico  3.21 W | burden pico  7.720 W E  0.017 mJ | AIN_ADC -0.41/+1.47 V
+-1 kV: P2.7  -32.8/ +46.1 V | Vds max  42.2 V | P MOSFET pico  1.31 W | burden pico  7.042 W E  0.094 mJ | AIN_ADC -0.01/+1.84 V

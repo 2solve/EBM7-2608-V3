@@ -1,0 +1,68 @@
+* AIN a 32 V externo
+
+.model T301 D(IS=1e-12 N=1.5 BV=35.05 IBV=1m RS=1.61 CJO=300p)
+.model T36 D(IS=1e-12 N=1.5 BV=42.1 IBV=1m RS=1.55 CJO=500p)
+.model BAV D(IS=1e-9 N=1.9 RS=1.5 BV=75 IBV=100n CJO=2p)
+.model DI D(IS=1e-14 N=0.05)
+.model DTX D(IS=1e-12 N=1.8)
+.model SWM SW(VT=0.5 VH=0.01 RON=0.05 ROFF=1e7)
+
+.model BC847C_CORE NPN(IS=1.641E-014 NF=0.9969 ISE=1.151E-016 NE=1.208 BF=509 IKF=0.0863 VAF=66.64 NR=0.9953
++ ISC=1.068E-014 NC=1.357 BR=9.832 IKR=0.1524 VAR=25 RB=360 IRB=2.5E-005 RBM=0.8 RE=0.6403 RC=0.5461 XTB=1.595
++ EG=1.11 XTI=6.27 CJE=1.119E-011 VJE=0.6755 MJE=0.3391 TF=5.25E-010 XTF=22.74 VTF=2 ITF=0.368 PTF=0
++ CJC=3.693E-012 VJC=0.5083 MJC=0.3642 XCJC=1 TR=0.0008 FC=0.9552)
+
+.model NMG NMOS(LEVEL=1 VTO=1.4 KP=0.6 LAMBDA=0.002 RD=0.5 RS=0.2 CGSO=4e-9 CGDO=1e-9)
+.model NPNG NPN(IS=1e-14 BF=500 VAF=100 CJE=8p CJC=4p TF=0.4n)
+.model DZG D(IS=1e-12 N=1.2 BV=10.0 IBV=5m RS=10 CJO=50p)
+.model DBODY D(IS=1e-12 N=1.3 RS=0.05 CJO=100p)
+
+.include "modelos/Infineon_small_signal_200V_PSpice.lib"
+.include "modelos/Nexperia_BC847C_SPICE.txt"
+
+VTA ta 0 60
+VBUS b 0 23.5
+RB b v24 0.3
+C24 v24 0 30u
+VIF4 v24 f4 0
+RF4 f4 s 2.0
+D10 0 s T36
+RCS s xp 2.7584
+DTX xp xq DTX
+ITX xq xn 20m
+CTX xp xn 100n
+RCR xn ain 2.7584
+D6 0 ain T36
+RZ v24 vz 22000.0
+DZ 0 vz DZG
+CZ vz 0 100n
+RG vz g1 100000.0
+VIM1 ain d1 0
+XM1 d1 g1 sx BSP297_L0
+VTJ tj 0 0
+RSENSE sx o 18.0
+XQ2 g1 sx o BC847C
+VIR13 o o2 0
+R13 o2 0 110.0
+RFB o adcf 0.1
+VIR18 adcf r18 0
+R18 r18 aadc 3300.0
+C27 aadc 0 1.0000000000000001e-07
+D14a 0 aadc BAV
+D14b aadc v33 BAV
+VLDO l 0 3.3
+DLDO l l2 DI
+RLDO l2 v33 0.05
+C33 v33 0 15u
+RL33 v33 0 660
+BTL v33 0 I = 0.001 + max(0, V(v33)-3.6)/0.2
+VEXT ext 0 32
+REXT ext ain 0.2
+
+.temp 60
+.options rshunt=1e10
+.control
+op
+print i(vir13) i(vir18) i(vim1) v(ain) v(sx) v(o) v(aadc) v(g1) v(vz) v(xp) v(xn) v(tj)
+.endc
+.end

@@ -10,4 +10,5 @@
 	(lib (name "EBM7_V23_proyecto8")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto8.kicad_sym")(options "")(descr "AO3400A: Q_NMOS_GSD do KiCad achatado; 1=G 2=S 3=D conferido no desenho AOS rev.3.1 p.1"))
 	(lib (name "EBM7_V23_proyecto9")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto9.kicad_sym")(options "")(descr "TPS7A2025PDBVR: LP5907 do KiCad achatado; 1 IN 2 GND 3 EN 4 NC 5 OUT conferido em TI SBVS338H p.3 fig.4-4"))
 	(lib (name "EBM7_V23_proyecto10")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto10.kicad_sym")(options "")(descr "ADR4525BRZ: 1 NIC 2 VIN 3 NIC 4 GND 5 NIC 6 VOUT 7 NIC 8 DNC, conferido na Figura 1 da folha ADI Rev. G. O simbolo da V2.2 tinha so 7 pinos, faltava-lhe o 8"))
+	(lib (name "EBM7_V23_proyecto11")(type "KiCad")(uri "${KIPRJMOD}/symbols/EBM7_V23_proyecto11.kicad_sym")(options "")(descr "Limitador discreto dos lacos: BSP297 (Infineon Rev.2.2 p.1: 1=G 2=D 3=S aba=D) e BC847C (Nexperia Rev.13 p.2: 1=B 2=E 3=C), achatados de Device:Q_NMOS e Device:Q_NPN do KiCad 10"))
 )

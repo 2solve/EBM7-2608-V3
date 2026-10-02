@@ -1,0 +1,97 @@
+{
+  "MOS": {
+    "symbol": "BSP297",
+    "value": "BSP297",
+    "mpn": "BSP297H6327XTSA1",
+    "fp": "EBM7_V23:SOT-223-3_TabPin2",
+    "ds": "Documentos_de_Referência-IC2S-EBM7-2608-V2.3-Fixo420/Infineon_BSP297_Rev2.2.pdf",
+    "desc": "N-MOSFET 200 V logic level SOT-223 (1=G 2=D 3=S, aba=D) conferido no desenho Infineon BSP297 Rev.2.2 p.1. VGS(th) 0,8-1,8 V, RDS(on) 1,8 ohm max a 10 V (p.2). SOA DC 1,8 W a TA 25 C com 6 cm2 (p.4 fig.3). RthJA 115 K/W pegada minima, 70 K/W 6 cm2 (p.2).",
+    "pinmap": {
+      "G": "1",
+      "D": "2",
+      "S": "3"
+    },
+    "spice": "C:/hw/wt/EBM7-420-limitador/Desenvolvimento_IC2S-EBM7-2608-V2.3-Fixo420/Projeto_IC2S-EBM7-2608-V2.3-Fixo420/Documentos_de_Referência-IC2S-EBM7-2608-V2.3-Fixo420/Infineon_small_signal_200V_PSpice.lib",
+    "spice_sub": "BSP297",
+    "generic": {
+      "vto": 1.4,
+      "kp": 0.6,
+      "rd": 0.5
+    }
+  },
+  "NPN": {
+    "symbol": "BC847C",
+    "value": "BC847C",
+    "mpn": "BC847C,215",
+    "fp": "EBM7_V23:SOT-23",
+    "ds": "Documentos_de_Referência-IC2S-EBM7-2608-V2.3-Fixo420/Nexperia_BC847X_SER_Rev13.pdf",
+    "desc": "NPN 45 V 100 mA SOT23 (1=B 2=E 3=C) conferido na Tabela 3 e no desenho, Nexperia BC847X_SER Rev.13 p.2. hFE 420-800 a 5 V/2 mA (p.4).",
+    "pinmap": {
+      "B": "1",
+      "E": "2",
+      "C": "3"
+    },
+    "spice": "C:/hw/wt/EBM7-420-limitador/Desenvolvimento_IC2S-EBM7-2608-V2.3-Fixo420/Projeto_IC2S-EBM7-2608-V2.3-Fixo420/Documentos_de_Referência-IC2S-EBM7-2608-V2.3-Fixo420/Nexperia_BC847C_SPICE.txt",
+    "spice_sub": "BC847C",
+    "spice_nodes": "C B E",
+    "generic": {
+      "is": 1e-14,
+      "bf": 500
+    }
+  },
+  "DZ": {
+    "value": "BZT52H-C10",
+    "mpn": "BZT52H-C10,115",
+    "fp": "EBM7_V23:SOD-123F",
+    "ds": "Documentos_de_Referência-IC2S-EBM7-2608-V2.3-Fixo420/Nexperia_BZT52H_SER_Rev7.pdf",
+    "desc": "Zener 10 V +-5 %, 375 mW, SOD123F (1=K 2=A, barra = catodo) conferido na Tabela 2 e no desenho, Nexperia BZT52H_SER Rev.7 p.2. Ptot p.4.",
+    "vz": 10.0
+  },
+  "BURDEN": {
+    "mpn": "TNPW1206110RBEEA",
+    "fp": "EBM7_V23:1206R",
+    "desc": "110R 0,1 % 25 ppm/K 1206, P70 0,27 W em modo geral (Vishay TNPW e3 p.2-4). Limitador ate 39 mA -> 167 mW."
+  },
+  "TVS": {
+    "value": "SMBJ36A",
+    "mpn": "SMBJ36A-13-F",
+    "fp": "EBM7_V23:DO-214AA"
+  },
+  "RS": {
+    "mpn": "RC0603FR-0718RL",
+    "desc": "18R 1 % 0603, sensor do limitador (39 mA -> 27 mW)"
+  },
+  "RG": {
+    "mpn": "RC0603FR-07100KL",
+    "desc": "100k 1 % 0603, porta do limitador desde VZ_LIM"
+  },
+  "RZ": {
+    "mpn": "RC0603FR-0722KL",
+    "desc": "22k 1 % 0603, polarizacao do zener D26 desde +24V_ADC (32 V -> 21 mW)"
+  },
+  "CZ": {
+    "mpn": "C1608X7R1H104K080AA",
+    "desc": "100nF 50 V X7R 0603 em VZ_LIM"
+  },
+  "lib_descr": "Limitador discreto dos lacos: BSP297 (Infineon Rev.2.2 p.1: 1=G 2=D 3=S aba=D) e BC847C (Nexperia Rev.13 p.2: 1=B 2=E 3=C), achatados de Device:Q_NMOS e Device:Q_NPN do KiCad 10",
+  "nota": [
+    "DECISAO 2026-10-02 - limitador discreto nos lacos",
+    "(rama lacos-limitador-discreto). Retirados U8-U11 TPS26613, U12 TPS7A4001,",
+    "+12V_TPS, VSNS, R22-R26, C26, C29, C31, C32, C37 e C38.",
+    "Por laco: Q1-Q4 BSP297 (D no AINk) -> R40-R43 18R -> burden. Q5-Q8 BC847C",
+    "com B/E sobre os 18R e C na porta: I_lim = VBE/18R = 23,7-39 mA de -40 a",
+    "85 C (ngspice, modelos Infineon BSP297_L0 e Nexperia BC847C; bancada: falta).",
+    "Porta: R44-R47 100k desde VZ_LIM = +24V_ADC -> R48 22k -> D26 BZT52H-C10",
+    "(C50 100n). O zener faz o papel do +Vs do TPS: o no da burden fica <= ~8,5 V",
+    "mesmo com a burden aberta (1,4 mA para o ADC).",
+    "D6/D7/D8/D11 -> SMBJ36A: numa falha a linha AIN fica no +24V_AIN (>= 36 V).",
+    "R13-R15/R17 -> TNPW1206 0,1% 25ppm: ate 169 mW (0603 de 0,1 W nao chega).",
+    "Sem corte termico: Q1-Q4 dissipam 0,67-1,06 W numa falha mantida a 32 V.",
+    "Tj = Ta + P x RthJA: com pegada minima (115 K/W) da 162 C a 85 C. Dar a cada",
+    "Q1-Q4 cobre para RthJA <= ~90 K/W (6 cm2 = 70 K/W; BSP297 Rev.2.2 p.2).",
+    "Q5-Q8 longe de Q1-Q4 (aquecidos juntos, I_lim desce abaixo de 21 mA).",
+    "Firmware: leitura >= 21 mA (NAMUR NE43) = falha ou curto no laco.",
+    "Notas 1, 5, 8-11, 16 e o cabecalho DECISAO 21-09-2026 ficam HISTORICAS",
+    "(falam do TPS26613 e do TPS7A4001)."
+  ]
+}
